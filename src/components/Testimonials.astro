@@ -1,0 +1,71 @@
+---
+interface Testimonial {
+  quote: string;
+  author: string;
+  role?: string;
+}
+
+interface Props {
+  testimonials?: Testimonial[];
+}
+
+const { testimonials = [] } = Astro.props;
+---
+
+{
+  testimonials.length > 0 && (
+    <section class="testimonials section" aria-label="Ervaringen">
+      <div class="container">
+        <div class="testimonials__grid">
+          {testimonials.map((item) => (
+            <blockquote class="testimonials__card">
+              <p class="testimonials__quote">"{item.quote}"</p>
+              <footer class="testimonials__author">
+                <cite>{item.author}</cite>
+                {item.role && <span class="testimonials__role">{item.role}</span>}
+              </footer>
+            </blockquote>
+          ))}
+        </div>
+      </div>
+    </section>
+  )
+}
+
+<style>
+  .testimonials__grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--space-lg);
+  }
+
+  .testimonials__card {
+    padding: var(--space-xl);
+    background: var(--color-primary);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-sm);
+  }
+
+  .testimonials__quote {
+    font-size: var(--text-lg);
+    line-height: 1.6;
+    margin-bottom: var(--space-md);
+  }
+
+  .testimonials__author cite {
+    font-style: normal;
+    font-weight: 700;
+  }
+
+  .testimonials__role {
+    display: block;
+    font-size: var(--text-sm);
+    opacity: 0.7;
+  }
+
+  @media (min-width: 768px) {
+    .testimonials__grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+</style>

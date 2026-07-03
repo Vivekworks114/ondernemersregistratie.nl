@@ -1,0 +1,18 @@
+---
+import PageLayout from '../layouts/PageLayout.astro';
+import PhonePageContent from '../components/PhonePageContent.astro';
+
+interface Props {
+  label: string;
+  slug: string;
+}
+
+const { label, slug } = Astro.props;
+---
+
+<PageLayout
+  title={`Onbekend nummer ${label}? Check hier wie het is`}
+  description={`Gemist oproep van ${label}. Zoek nu eenvoudig op wie jou probeerde te bereiken via Ondernemersregistratie.nl. Kun je veilig terugbellen?`}
+>
+  <PhonePageContent label={label} slug={slug} />
+</PageLayout>

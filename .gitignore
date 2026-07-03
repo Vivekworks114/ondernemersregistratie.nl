@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+.astro/
+
+# Environment
+.env
+.env.*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+scripts/download-log.txt
+
+# IDE
+.vscode/
+.idea/
+
+# Astro content cache
+node_modules/.astro/

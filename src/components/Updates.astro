@@ -1,0 +1,100 @@
+---
+import BlogCard from './BlogCard.astro';
+import { getCollection } from 'astro:content';
+
+interface Props {
+  limit?: number;
+  showHeader?: boolean;
+}
+
+const { limit = 6, showHeader = true } = Astro.props;
+
+const posts = (await getCollection('blog')).sort(
+  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+);
+
+const displayPosts = posts.slice(0, limit);
+
+function formatDate(date: Date) {
+  return date.toLocaleDateString('en-GB', {
+    day: 'numeric',
+    month: 'long',
+    year: 'numeric',
+  });
+}
+---
+
+<section class="updates section">
+  <div class="container">
+    {
+      showHeader && (
+        <div class="section__header">
+          <h2 class="section__title">Laatste updates</h2>
+          <p class="section__subtitle">
+            Ontdek nieuwe functies, slimme zoekstrategieën en trends in het register van Nederlandse
+            ondernemers.
+          </p>
+        </div>
+      )
+    }
+
+    <div class="updates__grid">
+      {
+        displayPosts.map((post) => (
+          <BlogCard
+            title={post.data.title}
+            excerpt={post.data.description}
+            date={formatDate(post.data.pubDate)}
+            dateISO={post.data.pubDate.toISOString()}
+            slug={post.data.slug || post.id}
+            featuredImage={post.data.featuredImage}
+            variant="compact"
+          />
+        ))
+      }
+    </div>
+
+    {
+      showHeader && (
+        <div class="updates__footer">
+          <a href="/updates/" class="btn btn--accent">
+            Alle updates bekijken
+          </a>
+        </div>
+      )
+    }
+  </div>
+</section>
+
+<style>
+  .updates {
+    background: var(--color-primary);
+  }
+
+  .updates__grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0;
+    align-items: start;
+  }
+
+  .updates__footer {
+    display: flex;
+    justify-content: center;
+    margin-top: var(--space-2xl);
+  }
+
+  @media (min-width: 768px) {
+    .updates__grid {
+      grid-template-columns: repeat(2, 1fr);
+      column-gap: clamp(1.5rem, 3vw, 2.5rem);
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .updates__grid {
+      grid-template-columns: repeat(3, 1fr);
+      column-gap: clamp(2rem, 3vw, 3.5rem);
+    }
+  }
+</style>

@@ -1,0 +1,88 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import Hero from '../../components/Hero.astro';
+import Features from '../../components/Features.astro';
+---
+
+<PageLayout
+  title="Over ons - Ondernemersregistratie.nl"
+  description="Welkom bij ondernemersregistratie.nl! Wij zijn jouw betrouwbare partner als het gaat om het registreren van je onderneming."
+>
+  <Hero
+    title="Over ons"
+    subtitle="Welkom bij ondernemersregistratie.nl! Wij zijn jouw betrouwbare partner als het gaat om het registreren van je onderneming en het vinden van betrouwbare bedrijfsgegevens."
+    showSearch={false}
+    showVisual={false}
+  />
+
+  <section class="about section">
+    <div class="container container--narrow">
+      <div class="about__content">
+        <h2>Onze missie</h2>
+        <p>
+          Onze missie is simpel: we willen ondernemers helpen met het gemakkelijk en snel registreren van
+          hun bedrijf en het verkrijgen van essentiële bedrijfsinformatie. We begrijpen dat registratie
+          van een onderneming een belangrijke stap is, en wij zorgen ervoor dat dit proces zo soepel en
+          transparant mogelijk verloopt.
+        </p>
+
+        <h2>Onze visie</h2>
+        <p>
+          Wij geloven in een transparant bedrijvenregister waarin iedereen snel en betrouwbaar de
+          informatie vindt die nodig is om zakelijke beslissingen te nemen. Door gegevens te verzamelen,
+          te controleren en te verrijken, maken wij het register toegankelijk voor ondernemers,
+          consumenten en professionals.
+        </p>
+
+        <h2>Waarom ondernemersregistratie.nl?</h2>
+        <ul class="about__list">
+          <li>Simpel registratieproces: wij maken het registratieproces van je onderneming eenvoudig.</li>
+          <li>Betrouwbare gegevens: actuele en geverifieerde bedrijfsinformatie op één plek.</li>
+          <li>Transparante info: openbaar en overzichtelijk voor iedereen.</li>
+        </ul>
+
+        <h2>Ons team</h2>
+        <p>
+          Ons team bestaat uit professionals met ruime ervaring in de wereld van ondernemerschap en
+          bedrijfsregistratie. Wij begrijpen de uitdagingen waarmee ondernemers geconfronteerd worden en
+          zorgen ervoor dat we altijd met praktische oplossingen komen.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <Features />
+</PageLayout>
+
+<style>
+  .about__content {
+    max-width: 48rem;
+    margin-inline: auto;
+    width: 100%;
+  }
+
+  .about__content h2 {
+    margin-top: var(--space-2xl);
+    margin-bottom: var(--space-md);
+  }
+
+  .about__content h2:first-child {
+    margin-top: 0;
+  }
+
+  .about__content p {
+    margin-bottom: var(--space-lg);
+    line-height: 1.75;
+  }
+
+  .about__list {
+    list-style: disc;
+    padding-left: var(--space-xl);
+    margin-bottom: var(--space-lg);
+  }
+
+  .about__list li {
+    margin-bottom: var(--space-sm);
+    line-height: 1.65;
+  }
+</style>

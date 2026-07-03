@@ -1,0 +1,58 @@
+[
+  {
+    "slug": "home",
+    "title": "Home",
+    "link": "https://ondernemersregistratie.nl/",
+    "pubDate": "2025-03-27 10:22:37",
+    "modified": "2025-04-25 04:14:30"
+  },
+  {
+    "slug": "category",
+    "title": "Category",
+    "link": "https://ondernemersregistratie.nl/category/",
+    "pubDate": "2025-03-28 09:10:56",
+    "modified": "2025-04-02 09:58:33"
+  },
+  {
+    "slug": "zb_mp_nummer",
+    "title": "[zb_mp_nummer]",
+    "link": "https://ondernemersregistratie.nl/zb_mp_nummer/",
+    "pubDate": "2025-03-28 09:49:48",
+    "modified": "2025-04-21 14:39:53"
+  },
+  {
+    "slug": "sitemap",
+    "title": "Sitemap",
+    "link": "https://ondernemersregistratie.nl/sitemap/",
+    "pubDate": "2025-04-18 14:19:27",
+    "modified": "2025-04-18 14:19:28"
+  },
+  {
+    "slug": "telefoonnummers",
+    "title": "Telefoonnummers",
+    "link": "https://ondernemersregistratie.nl/telefoonnummers/",
+    "pubDate": "2025-04-18 14:24:12",
+    "modified": "2025-05-27 04:49:43"
+  },
+  {
+    "slug": "over-ons",
+    "title": "Over ons",
+    "link": "https://ondernemersregistratie.nl/over-ons/",
+    "pubDate": "2025-05-27 04:24:08",
+    "modified": "2025-05-27 04:38:48"
+  },
+  {
+    "slug": "updates",
+    "title": "Updates",
+    "link": "https://ondernemersregistratie.nl/updates/",
+    "pubDate": "2025-05-27 04:39:33",
+    "modified": "2025-05-27 04:44:04"
+  },
+  {
+    "slug": "contact",
+    "title": "Contact",
+    "link": "https://ondernemersregistratie.nl/contact/",
+    "pubDate": "2025-05-27 04:45:15",
+    "modified": "2025-05-27 04:48:19"
+  }
+]

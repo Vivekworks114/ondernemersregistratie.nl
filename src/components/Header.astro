@@ -1,0 +1,104 @@
+---
+import Navigation from './Navigation.astro';
+---
+
+<header class="header" id="site-header">
+  <div class="header__inner container">
+    <a href="/" class="header__logo" aria-label="Ondernemersregistratie.nl – Home">
+      <img
+        src="/images/brand/logo.svg"
+        alt="Ondernemersregistratie.nl"
+        width="310"
+        height="27"
+        loading="eager"
+      />
+    </a>
+
+    <Navigation />
+
+    <div class="header__actions">
+      <a href="/contact/" class="header__cta btn btn--accent">Adverteren?</a>
+    </div>
+  </div>
+</header>
+
+<style>
+  .header {
+    position: sticky;
+    top: 0;
+    z-index: 200;
+    background: rgba(255, 255, 255, 0.92);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+  }
+
+  .header__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--space-md);
+    min-height: var(--header-height);
+    padding-block: 0.75rem;
+  }
+
+  .header__logo {
+    flex-shrink: 0;
+    z-index: 210;
+  }
+
+  .header__logo img {
+    width: auto;
+    height: clamp(1.25rem, 2vw, 1.75rem);
+    object-fit: contain;
+  }
+
+  .header__actions {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: var(--space-sm);
+    z-index: 210;
+  }
+
+  @media (max-width: 1023px) {
+    .header__actions {
+      display: none;
+    }
+  }
+
+  .header__cta {
+    display: none;
+    flex-shrink: 0;
+    padding: 0.625rem 1.375rem;
+    font-size: var(--text-sm);
+    font-weight: 600;
+    white-space: nowrap;
+  }
+
+  @media (min-width: 1024px) {
+    .header__inner {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+      align-items: center;
+    }
+
+    .header__logo {
+      justify-self: start;
+    }
+
+    .header__actions {
+      justify-self: end;
+    }
+
+    .header__cta {
+      display: inline-flex;
+    }
+  }
+
+  @media (max-width: 1023px) {
+    .header__inner .navigation {
+      margin-left: auto;
+    }
+  }
+</style>

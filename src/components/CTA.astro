@@ -1,0 +1,62 @@
+---
+interface Props {
+  title: string;
+  description?: string;
+  buttonText?: string;
+  buttonHref?: string;
+}
+
+const {
+  title,
+  description,
+  buttonText = 'Neem contact op',
+  buttonHref = '/contact/',
+} = Astro.props;
+---
+
+<section class="cta section">
+  <div class="container">
+    <div class="cta__inner">
+      <div class="cta__content">
+        <h2 class="cta__title">{title}</h2>
+        {description && <p class="cta__description">{description}</p>}
+      </div>
+      <a href={buttonHref} class="btn btn--accent cta__button">{buttonText}</a>
+    </div>
+  </div>
+</section>
+
+<style>
+  .cta {
+    background: var(--color-bg-dark);
+    color: var(--color-primary);
+  }
+
+  .cta__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--space-xl);
+    padding: var(--space-2xl);
+    border-radius: var(--radius-lg);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .cta__title {
+    color: var(--color-primary);
+    margin-bottom: var(--space-sm);
+  }
+
+  .cta__description {
+    opacity: 0.85;
+    max-width: 36rem;
+  }
+
+  @media (min-width: 768px) {
+    .cta__inner {
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
+</style>

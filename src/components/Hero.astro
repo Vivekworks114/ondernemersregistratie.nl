@@ -1,0 +1,210 @@
+---
+interface Props {
+  title?: string;
+  subtitle?: string;
+  showSearch?: boolean;
+  showVisual?: boolean;
+  align?: 'center' | 'left';
+}
+
+const {
+  title = 'Geef je onderneming zichtbaarheid',
+  subtitle = 'Vind geregistreerde bedrijven of meld je eigen onderneming aan. Eenvoudig zoeken op naam, branche of locatie – helder en actueel.',
+  showSearch = true,
+  showVisual = true,
+  align = showVisual ? 'center' : 'left',
+} = Astro.props;
+---
+
+<section class:list={['hero', 'section', !showVisual && 'hero--text-only']}>
+  <div class="hero__inner container">
+    <div class:list={['hero__content', 'animate-in', align === 'left' && 'hero__content--left']}>
+      <h1 class="hero__title">{title}</h1>
+      <p class="hero__subtitle">{subtitle}</p>
+
+      {
+        showSearch && (
+          <form class="hero__search" action="/" method="get" role="search">
+            <label for="hero-search" class="sr-only">
+              Zoek op bedrijfsnaam of activiteit
+            </label>
+            <div class="hero__search-field">
+              <input
+                type="search"
+                id="hero-search"
+                name="s"
+                class="hero__search-input"
+                placeholder="Zoek op bedrijfsnaam of activiteit..."
+                autocomplete="off"
+              />
+              <button type="submit" class="hero__search-btn btn btn--accent">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  viewBox="0 0 20 20"
+                  fill="none"
+                  aria-hidden="true"
+                  class="btn__icon"
+                >
+                  <path
+                    d="M8.75008 15.8333C12.6622 15.8333 15.8334 12.6621 15.8334 8.74999C15.8334 4.83791 12.6622 1.66666 8.75008 1.66666C4.838 1.66666 1.66675 4.83791 1.66675 8.74999C1.66675 12.6621 4.838 15.8333 8.75008 15.8333Z"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linejoin="round"></path>
+                  <path
+                    d="M11.1072 5.97625C10.798 5.66627 10.4306 5.42044 10.0261 5.2529C9.62161 5.08536 9.18798 4.99942 8.75015 5C8.31232 4.99942 7.87869 5.08536 7.47418 5.2529C7.06968 5.42044 6.70226 5.66627 6.39307 5.97625M13.8426 13.8425L17.3781 17.3779"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"></path>
+                </svg>
+                Zoeken
+              </button>
+            </div>
+          </form>
+        )
+      }
+
+      <slot />
+    </div>
+
+    {
+      showVisual && (
+        <div class="hero__visual animate-in">
+          <img
+            src="/images/hero/image34.png"
+            alt="Illustratie van bedrijfsregistratie en zoeken"
+            width="570"
+            height="559"
+            loading="eager"
+            fetchpriority="high"
+          />
+        </div>
+      )
+    }
+  </div>
+</section>
+
+<style>
+  .hero {
+    padding-block: var(--space-section);
+    background: var(--color-bg);
+  }
+
+  .hero__inner {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--space-2xl);
+    align-items: center;
+  }
+
+  .hero__content {
+    max-width: var(--layout-content-max);
+  }
+
+  .hero__content--left {
+    max-width: none;
+  }
+
+  .hero--text-only .hero__inner {
+    grid-template-columns: 1fr;
+  }
+
+  .hero--text-only {
+    padding-block: var(--space-2xl) var(--space-xl);
+  }
+
+  .hero__title {
+    margin-bottom: var(--space-md);
+  }
+
+  .hero__subtitle {
+    margin-bottom: var(--space-xl);
+    font-size: var(--text-base);
+    line-height: 1.65;
+    opacity: 0.95;
+  }
+
+  .hero__search-field {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    max-width: 100%;
+  }
+
+  .hero__search-input {
+    width: 100%;
+    padding: 1rem 1.75rem;
+    border: 1px solid var(--color-text);
+    border-radius: var(--radius-pill) var(--radius-pill) 0 0;
+    background: var(--color-primary);
+    font-size: var(--text-base);
+    transition: box-shadow var(--transition-base);
+  }
+
+  .hero__search-input:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(116, 255, 128, 0.35);
+  }
+
+  .hero__search-btn {
+    width: 100%;
+    border-radius: 0 0 var(--radius-pill) var(--radius-pill);
+    border: 1px solid var(--color-text);
+    border-top: none;
+    padding: 1rem 1.75rem;
+  }
+
+  .hero__visual img {
+    width: 100%;
+    max-width: 35.625rem;
+    margin-inline: auto;
+    border-radius: var(--radius-lg);
+    object-fit: contain;
+  }
+
+  @media (min-width: 768px) {
+    .hero__search-field {
+      flex-direction: row;
+    }
+
+    .hero__search-input {
+      flex: 1;
+      border-radius: var(--radius-pill) 0 0 var(--radius-pill);
+      border-right: none;
+    }
+
+    .hero__search-btn {
+      width: auto;
+      flex-shrink: 0;
+      border-radius: 0 var(--radius-pill) var(--radius-pill) 0;
+      border: 1px solid var(--color-text);
+      border-left: none;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .hero__inner {
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+      gap: var(--layout-split-gap);
+      align-items: center;
+    }
+
+    .hero__visual {
+      order: 1;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+    }
+
+    .hero__visual img {
+      margin-inline: 0;
+      max-width: var(--layout-media-max);
+    }
+
+    .hero__content {
+      order: 0;
+    }
+  }
+</style>

@@ -1,0 +1,132 @@
+---
+import PageLayout from './PageLayout.astro';
+import type { CollectionEntry } from 'astro:content';
+
+interface Props {
+  entry: CollectionEntry<'blog'>;
+}
+
+const { entry } = Astro.props;
+
+function formatDate(date: Date) {
+  return date.toLocaleDateString('en-GB', {
+    day: 'numeric',
+    month: 'long',
+    year: 'numeric',
+  });
+}
+
+const pubDate = formatDate(entry.data.pubDate);
+const slug = entry.data.slug || entry.id;
+---
+
+<PageLayout
+  title={`${entry.data.title} - Ondernemersregistratie.nl`}
+  description={entry.data.description}
+>
+  <article class="blog-post section">
+    <div class="container container--narrow">
+      <div class="blog-post__layout">
+      <header class="blog-post__header">
+        <a href="/updates/" class="blog-post__back">← Terug naar updates</a>
+        <time class="blog-post__date" datetime={entry.data.pubDate.toISOString()}>
+          {pubDate}
+        </time>
+        <h1 class="blog-post__title">{entry.data.title}</h1>
+        {entry.data.author && <p class="blog-post__author">Door {entry.data.author}</p>}
+      </header>
+
+      <div class="blog-post__featured">
+        <img
+          src={entry.data.featuredImage}
+          alt={entry.data.title}
+          width="1024"
+          height="576"
+          loading="eager"
+        />
+      </div>
+
+      <div class="blog-post__content prose">
+        <slot />
+      </div>
+      </div>
+    </div>
+  </article>
+</PageLayout>
+
+<style>
+  .blog-post {
+    padding-block: var(--space-2xl) var(--space-section);
+  }
+
+  .blog-post__layout {
+    max-width: 48rem;
+    margin-inline: auto;
+  }
+
+  .blog-post__header {
+    margin-bottom: var(--space-xl);
+  }
+
+  .blog-post__back {
+    display: inline-block;
+    font-size: var(--text-sm);
+    font-weight: 600;
+    margin-bottom: var(--space-lg);
+    transition: color var(--transition-fast);
+  }
+
+  .blog-post__back:hover {
+    color: var(--color-accent-dark);
+    opacity: 1;
+  }
+
+  .blog-post__date {
+    display: block;
+    font-size: var(--text-sm);
+    opacity: 0.7;
+    margin-bottom: var(--space-sm);
+  }
+
+  .blog-post__author {
+    font-size: var(--text-sm);
+    opacity: 0.8;
+    margin-top: var(--space-sm);
+  }
+
+  .blog-post__title {
+    max-width: none;
+  }
+
+  .blog-post__featured {
+    aspect-ratio: 16 / 9;
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    margin-bottom: var(--space-2xl);
+    background: rgba(0, 0, 0, 0.04);
+  }
+
+  .blog-post__featured img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .blog-post__content {
+    max-width: none;
+  }
+
+  .blog-post__content :global(h2) {
+    margin-top: var(--space-2xl);
+    margin-bottom: var(--space-md);
+  }
+
+  .blog-post__content :global(p) {
+    margin-bottom: var(--space-lg);
+  }
+
+  .blog-post__content :global(img) {
+    border-radius: var(--radius-md);
+    margin-block: var(--space-lg);
+  }
+</style>

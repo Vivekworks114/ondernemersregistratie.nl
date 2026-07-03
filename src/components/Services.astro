@@ -1,0 +1,132 @@
+---
+import { businessCategories } from '../data/categories';
+---
+
+<section class="services section">
+  <div class="container">
+    <div class="section__header">
+      <h2 class="section__title">Populaire bedrijfstypes</h2>
+      <p class="section__subtitle">
+        Een overzicht van veelbezochte categorieën, samengesteld op basis van actuele zoektrends en
+        aanbevelingen van onze specialisten.
+      </p>
+    </div>
+
+    <div class="services__grid">
+      {
+        businessCategories.map((category) => (
+          <a href={category.href} class="services__card">
+            <img
+              src={category.icon}
+              alt=""
+              width="48"
+              height="48"
+              loading="lazy"
+              class="services__icon"
+            />
+            <span class="services__name">{category.name}</span>
+          </a>
+        ))
+      }
+    </div>
+
+    <div class="services__cta">
+      <a href="/telefoonnummers/" class="btn btn--ghost">
+        <svg
+          class="btn__icon"
+          viewBox="0 0 448 512"
+          xmlns="http://www.w3.org/2000/svg"
+          aria-hidden="true"
+          fill="currentColor"
+        >
+          <path
+            d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z"
+          ></path>
+        </svg>
+        Bekijk alle producten
+      </a>
+    </div>
+  </div>
+</section>
+
+<style>
+  .services {
+    background: var(--color-bg);
+    padding-block: var(--space-2xl) var(--space-section);
+  }
+
+  .services__grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-md);
+    margin-bottom: var(--space-2xl);
+  }
+
+  .services__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-md);
+    min-height: 9rem;
+    padding: var(--space-lg) var(--space-md);
+    background: var(--color-card-dark);
+    border-radius: 1.5625rem;
+    transition:
+      transform var(--transition-base),
+      box-shadow var(--transition-base);
+  }
+
+  .services__card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.18);
+    opacity: 1;
+  }
+
+  .services__icon {
+    width: 3rem;
+    height: 3rem;
+    object-fit: contain;
+  }
+
+  .services__name {
+    font-family: var(--font-body);
+    font-size: var(--text-sm);
+    font-weight: 700;
+    color: var(--color-card-text);
+    text-align: center;
+    line-height: 1.3;
+  }
+
+  .services__cta {
+    display: flex;
+    justify-content: center;
+  }
+
+  @media (min-width: 600px) {
+    .services__grid {
+      grid-template-columns: repeat(3, 1fr);
+      gap: var(--space-lg);
+    }
+  }
+
+  @media (min-width: 768px) {
+    .services__grid {
+      grid-template-columns: repeat(4, 1fr);
+    }
+
+    .services__cta {
+      justify-content: flex-end;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .services__grid {
+      grid-template-columns: repeat(6, 1fr);
+    }
+
+    .services__name {
+      font-size: var(--text-base);
+    }
+  }
+</style>

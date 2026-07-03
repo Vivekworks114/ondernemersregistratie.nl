@@ -1,0 +1,59 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import categoryHtml from '../../data/categoryContent.html?raw';
+---
+
+<PageLayout
+  title="Omgekeerd telefoonnummer zoeken - Ondernemersregistratie.nl"
+  description="Omgekeerd telefoonnummer zoeken. Vind wie er gebeld heeft via ondernemersregistratie.nl."
+>
+  <section class="category section">
+    <div class="container container--narrow">
+      <div class="category__content wp-content" set:html={categoryHtml} />
+    </div>
+  </section>
+</PageLayout>
+
+<style>
+  .category__content {
+    max-width: 48rem;
+    margin-inline: auto;
+  }
+
+  .category__content :global(.elementor-heading-title) {
+    font-family: var(--font-heading);
+  }
+
+  .category__content :global(h1) {
+    font-size: var(--text-3xl);
+    margin-bottom: var(--space-lg);
+  }
+
+  .category__content :global(p) {
+    margin-bottom: var(--space-lg);
+    line-height: 1.65;
+  }
+
+  .category__content :global(.e-search-form) {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-sm);
+    margin-block: var(--space-xl);
+  }
+
+  .category__content :global(.e-search-input) {
+    flex: 1;
+    min-width: 14rem;
+    padding: 0.875rem 1.25rem;
+    border: 1px solid var(--color-text);
+    border-radius: var(--radius-pill);
+    background: var(--color-primary);
+  }
+
+  .category__content :global(.e-search-submit) {
+    padding: 0.875rem 1.75rem;
+    background: var(--color-accent);
+    border-radius: var(--radius-pill);
+    font-weight: 600;
+  }
+</style>

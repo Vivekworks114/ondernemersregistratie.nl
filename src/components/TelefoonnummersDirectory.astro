@@ -1,0 +1,338 @@
+---
+import phonePages from '../data/phonePages.json';
+
+const GROUP_ORDER = ['0', '8', '9', '1', '2', '3', '4', '5', '6', '7'] as const;
+
+function firstDigit(label: string) {
+  return label.replace(/\D/g, '')[0] ?? '0';
+}
+
+const groups = GROUP_ORDER.map((digit) => ({
+  digit,
+  items: phonePages.filter((page) => firstDigit(page.label) === digit),
+})).filter((group) => group.items.length > 0);
+---
+
+<div class="tel-dir" data-tel-dir>
+  <div class="tel-dir__toolbar">
+    <form class="tel-dir__search" role="search" data-tel-search-form>
+      <label for="tel-dir-search" class="sr-only">Zoek telefoonnummer</label>
+      <div class="tel-dir__search-row">
+        <input
+          type="search"
+          id="tel-dir-search"
+          name="s"
+          class="tel-dir__search-input"
+          placeholder="Zoek op telefoonnummer…"
+          autocomplete="off"
+          data-tel-search-input
+        />
+        <button type="submit" class="tel-dir__search-btn btn btn--accent">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+            <path
+              d="M8.75008 15.8333C12.6622 15.8333 15.8334 12.6621 15.8334 8.74999C15.8334 4.83791 12.6622 1.66666 8.75008 1.66666C4.838 1.66666 1.66675 4.83791 1.66675 8.74999C1.66675 12.6621 4.838 15.8333 8.75008 15.8333Z"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linejoin="round"></path>
+            <path
+              d="M11.1072 5.97625C10.798 5.66627 10.4306 5.42044 10.0261 5.2529C9.62161 5.08536 9.18798 4.99942 8.75015 5C8.31232 4.99942 7.87869 5.08536 7.47418 5.2529C7.06968 5.42044 6.70226 5.66627 6.39307 5.97625M13.8426 13.8425L17.3781 17.3779"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"></path>
+          </svg>
+          Zoeken
+        </button>
+      </div>
+    </form>
+
+    <nav class="tel-dir__jump" aria-label="Spring naar netnummer">
+      {
+        groups.map(({ digit }) => (
+          <a href={`#tel-group-${digit}`} class="tel-dir__jump-link">
+            {digit}
+          </a>
+        ))
+      }
+    </nav>
+
+    <p class="tel-dir__status" data-tel-status aria-live="polite">
+      {phonePages.length} telefoonnummers
+    </p>
+  </div>
+
+  <div class="tel-dir__groups" data-tel-groups>
+    {
+      groups.map(({ digit, items }) => (
+        <section class="tel-dir__group alpha-group" id={`tel-group-${digit}`} data-tel-group={digit}>
+          <h2 class="tel-dir__group-title">{digit}</h2>
+          <ul class="tel-dir__list">
+            {
+              items.map(({ slug, label }) => (
+                <li data-tel-item={label.toLowerCase()}>
+                  <a href={`/${slug}/`}>{label}</a>
+                </li>
+              ))
+            }
+          </ul>
+        </section>
+      ))
+    }
+  </div>
+
+  <p class="tel-dir__empty" data-tel-empty hidden>
+    Geen telefoonnummers gevonden. Probeer een ander nummer of netcode.
+  </p>
+</div>
+
+<script>
+  function normalize(value: string) {
+    return value.toLowerCase().replace(/[\s\-./]/g, '');
+  }
+
+  function initTelefoonnummersDirectory(root: HTMLElement) {
+    const form = root.querySelector<HTMLFormElement>('[data-tel-search-form]');
+    const input = root.querySelector<HTMLInputElement>('[data-tel-search-input]');
+    const status = root.querySelector<HTMLElement>('[data-tel-status]');
+    const empty = root.querySelector<HTMLElement>('[data-tel-empty]');
+    const groups = [...root.querySelectorAll<HTMLElement>('[data-tel-group]')];
+    const total = groups.reduce(
+      (count, group) => count + group.querySelectorAll('[data-tel-item]').length,
+      0,
+    );
+
+    function applyFilter(rawQuery: string) {
+      const query = normalize(rawQuery.trim());
+      let visibleCount = 0;
+
+      for (const group of groups) {
+        let groupVisible = 0;
+
+        for (const item of group.querySelectorAll<HTMLElement>('[data-tel-item]')) {
+          const label = item.dataset.telItem ?? '';
+          const match = !query || label.includes(query) || normalize(label).includes(query);
+          item.hidden = !match;
+          if (match) groupVisible += 1;
+        }
+
+        group.hidden = groupVisible === 0;
+        visibleCount += groupVisible;
+      }
+
+      if (status) {
+        status.textContent = query
+          ? `${visibleCount} resultaten voor “${rawQuery.trim()}”`
+          : `${total} telefoonnummers`;
+      }
+
+      if (empty) empty.hidden = visibleCount > 0;
+    }
+
+    const params = new URLSearchParams(window.location.search);
+    const initialQuery = params.get('s') ?? '';
+    if (input && initialQuery) {
+      input.value = initialQuery;
+      applyFilter(initialQuery);
+    }
+
+    input?.addEventListener('input', () => applyFilter(input.value));
+
+    form?.addEventListener('submit', (event) => {
+      event.preventDefault();
+      if (!input) return;
+      applyFilter(input.value);
+      const url = new URL(window.location.href);
+      if (input.value.trim()) url.searchParams.set('s', input.value.trim());
+      else url.searchParams.delete('s');
+      window.history.replaceState({}, '', url);
+    });
+  }
+
+  document.querySelectorAll<HTMLElement>('[data-tel-dir]').forEach(initTelefoonnummersDirectory);
+</script>
+
+<style>
+  .tel-dir {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2xl);
+  }
+
+  .tel-dir__toolbar {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-lg);
+  }
+
+  .tel-dir__search-row {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 42rem;
+  }
+
+  .tel-dir__search-input {
+    width: 100%;
+    padding: 1rem 1.375rem;
+    border: 1px solid var(--color-text);
+    border-radius: var(--radius-pill) var(--radius-pill) 0 0;
+    background: var(--color-primary);
+    font-size: var(--text-base);
+  }
+
+  .tel-dir__search-input:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(116, 255, 128, 0.35);
+  }
+
+  .tel-dir__search-btn {
+    width: 100%;
+    border-radius: 0 0 var(--radius-pill) var(--radius-pill);
+    border: 1px solid var(--color-text);
+    border-top: none;
+    padding: 1rem 1.75rem;
+    gap: 0.5rem;
+    font-weight: 600;
+    white-space: nowrap;
+  }
+
+  .tel-dir__jump {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .tel-dir__jump-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 2.5rem;
+    min-height: 2.5rem;
+    padding-inline: 0.75rem;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    border-radius: var(--radius-sm);
+    font-family: var(--font-heading);
+    font-size: var(--text-sm);
+    font-weight: 700;
+    background: var(--color-primary);
+    transition:
+      border-color var(--transition-fast),
+      background-color var(--transition-fast);
+  }
+
+  .tel-dir__jump-link:hover {
+    border-color: var(--color-accent);
+    background: rgba(116, 255, 128, 0.12);
+    opacity: 1;
+  }
+
+  .tel-dir__status {
+    margin: 0;
+    font-size: var(--text-sm);
+    opacity: 0.72;
+  }
+
+  .tel-dir__groups {
+    display: flex;
+    flex-wrap: wrap;
+    gap: clamp(1.25rem, 2.5vw, 2rem);
+    align-items: flex-start;
+  }
+
+  .tel-dir__group {
+    flex: 1 1 calc(50% - 1rem);
+    min-width: 9rem;
+    max-width: 100%;
+  }
+
+  .tel-dir__group-title {
+    font-family: var(--font-heading);
+    font-size: var(--text-lg);
+    font-weight: 700;
+    margin: 0 0 var(--space-sm);
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--color-accent);
+  }
+
+  .tel-dir__list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .tel-dir__list a {
+    display: block;
+    padding-block: 0.15rem;
+    font-size: var(--text-sm);
+    line-height: 1.5;
+    font-variant-numeric: tabular-nums;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    word-break: break-word;
+  }
+
+  .tel-dir__list a:hover {
+    color: var(--color-accent-dark);
+    opacity: 1;
+  }
+
+  .tel-dir__empty {
+    margin: 0;
+    padding: var(--space-xl);
+    text-align: center;
+    border: 1px dashed rgba(0, 0, 0, 0.15);
+    border-radius: var(--radius-md);
+    color: rgba(0, 0, 0, 0.65);
+  }
+
+  .tel-dir__empty[hidden] {
+    display: none;
+  }
+
+  @media (min-width: 540px) {
+    .tel-dir__search-row {
+      flex-direction: row;
+      align-items: stretch;
+    }
+
+    .tel-dir__search-input {
+      flex: 1;
+      min-width: 0;
+      border-radius: var(--radius-pill) 0 0 var(--radius-pill);
+      border-right: none;
+    }
+
+    .tel-dir__search-btn {
+      width: auto;
+      flex-shrink: 0;
+      border-radius: 0 var(--radius-pill) var(--radius-pill) 0;
+      border: 1px solid var(--color-text);
+      border-left: none;
+      padding-inline: 2rem;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .tel-dir__group {
+      flex: 0 1 calc(33.333% - 1.35rem);
+      max-width: calc(33.333% - 1.35rem);
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .tel-dir__group {
+      flex: 0 1 calc(20% - 1.6rem);
+      max-width: calc(20% - 1.6rem);
+    }
+  }
+
+  @media (min-width: 1280px) {
+    .tel-dir__group {
+      flex: 0 1 calc(16.666% - 1.7rem);
+      max-width: calc(16.666% - 1.7rem);
+    }
+  }
+</style>

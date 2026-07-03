@@ -1,0 +1,178 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import TelefoonnummersDirectory from '../../components/TelefoonnummersDirectory.astro';
+
+const relatedPages = [
+  { href: '/contact/', title: 'Contact' },
+  { href: '/updates/', title: 'Updates' },
+  { href: '/over-ons/', title: 'Over ons' },
+  { href: '/sitemap/', title: 'Sitemap' },
+];
+---
+
+<PageLayout
+  title="Telefoonnummers bedrijven zoeken | Ondernemersregistratie.nl"
+  description="Vind snel en eenvoudig telefoonnummers van bedrijven via ondernemersregistratie.nl. Bereik direct de juiste zakelijke contacten zonder gedoe."
+>
+  <article class="telefoonnummers">
+    <header class="telefoonnummers__hero">
+      <div class="container container--narrow">
+        <p class="telefoonnummers__kicker">Telefoonnummers</p>
+        <h1 class="telefoonnummers__title">Telefoonnummers</h1>
+        <div class="telefoonnummers__meta">
+          <span>10 Minuten leestijd</span>
+          <span class="telefoonnummers__meta-dot" aria-hidden="true">·</span>
+          <time datetime="2025-04-18">04/18/2025</time>
+        </div>
+      </div>
+    </header>
+
+    <section class="telefoonnummers__directory" aria-label="Telefoonnummers overzicht">
+      <div class="container container--narrow">
+        <TelefoonnummersDirectory />
+      </div>
+    </section>
+
+    <aside class="telefoonnummers__related" aria-label="Meer berichten">
+      <div class="container container--narrow">
+        <h2 class="telefoonnummers__related-title">Meer berichten</h2>
+        <div class="telefoonnummers__related-grid">
+          {
+            relatedPages.map((page) => (
+              <a href={page.href} class="telefoonnummers__related-card">
+                <h3 class="telefoonnummers__related-card-title">{page.title}</h3>
+                <span class="telefoonnummers__related-card-link">Lees meer</span>
+              </a>
+            ))
+          }
+        </div>
+      </div>
+    </aside>
+  </article>
+</PageLayout>
+
+<style>
+  .telefoonnummers__hero {
+    padding-block: clamp(2.5rem, 5vw, 4rem) clamp(1.5rem, 3vw, 2.5rem);
+    background: var(--color-bg);
+  }
+
+  .telefoonnummers__kicker {
+    margin: 0 0 var(--space-sm);
+    font-family: var(--font-body);
+    font-size: var(--text-sm);
+    font-weight: 500;
+    text-transform: capitalize;
+    color: rgba(0, 0, 0, 0.65);
+  }
+
+  .telefoonnummers__title {
+    margin: 0 0 var(--space-md);
+    font-size: clamp(2.25rem, 5vw, 3.5rem);
+    line-height: 1.05;
+    letter-spacing: -0.02em;
+  }
+
+  .telefoonnummers__meta {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem 0.75rem;
+    font-size: var(--text-sm);
+    color: rgba(0, 0, 0, 0.62);
+  }
+
+  .telefoonnummers__meta-dot {
+    opacity: 0.5;
+  }
+
+  .telefoonnummers__directory {
+    padding-block: 0 clamp(3rem, 6vw, 5rem);
+    background: var(--color-bg);
+  }
+
+  .telefoonnummers__related {
+    padding-block: clamp(3rem, 6vw, 5rem);
+    background: var(--color-bg);
+    border-top: 1px solid rgba(0, 0, 0, 0.08);
+  }
+
+  .telefoonnummers__related-title {
+    margin: 0 0 var(--space-xl);
+    font-family: var(--font-heading);
+    font-size: var(--text-xl);
+    font-weight: 700;
+  }
+
+  .telefoonnummers__related-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: var(--radius-md);
+    overflow: hidden;
+    background: var(--color-primary);
+  }
+
+  .telefoonnummers__related-card {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-sm);
+    padding: var(--space-lg) var(--space-xl);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+    transition: background-color var(--transition-fast);
+  }
+
+  .telefoonnummers__related-card:last-child {
+    border-bottom: none;
+  }
+
+  .telefoonnummers__related-card:hover {
+    background: rgba(116, 255, 128, 0.08);
+    opacity: 1;
+  }
+
+  .telefoonnummers__related-card-title {
+    margin: 0;
+    font-family: var(--font-body);
+    font-size: var(--text-lg);
+    font-weight: 700;
+    line-height: 1.35;
+  }
+
+  .telefoonnummers__related-card-link {
+    font-size: var(--text-sm);
+    font-weight: 600;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+
+  @media (min-width: 768px) {
+    .telefoonnummers__related-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .telefoonnummers__related-card:nth-child(odd) {
+      border-right: 1px solid rgba(0, 0, 0, 0.08);
+    }
+
+    .telefoonnummers__related-card:nth-last-child(-n + 2) {
+      border-bottom: none;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .telefoonnummers__related-grid {
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+
+    .telefoonnummers__related-card {
+      border-right: 1px solid rgba(0, 0, 0, 0.08);
+      border-bottom: none;
+    }
+
+    .telefoonnummers__related-card:last-child {
+      border-right: none;
+    }
+  }
+</style>

@@ -1,0 +1,187 @@
+---
+interface Props {
+  title?: string;
+  subtitle?: string;
+  showImage?: boolean;
+}
+
+const {
+  title = 'Stel je vraag of geef feedback',
+  subtitle = 'Heb je een vraag over een vermelding, wil je iets aanpassen of toevoegen? We horen het graag. Vul het formulier in en we nemen snel contact met je op.',
+  showImage = true,
+} = Astro.props;
+---
+
+<section class="contact section" id="contact">
+  <div class="container">
+    <div class="contact__inner">
+      {
+        showImage && (
+          <div class="contact__visual">
+            <img
+              src="/images/contact/image35.png"
+              alt="Illustratie van contact en feedback"
+              width="570"
+              height="510"
+              loading="lazy"
+            />
+          </div>
+        )
+      }
+
+      <div class="contact__content">
+        <h2 class="contact__title">{title}</h2>
+        <p class="contact__subtitle">{subtitle}</p>
+
+        <form class="contact__form" name="contact" method="POST">
+          <div class="contact__field">
+            <label for="contact-name" class="contact__label">Naam</label>
+            <input
+              type="text"
+              id="contact-name"
+              name="name"
+              class="contact__input"
+              placeholder="Naam"
+              autocomplete="name"
+            />
+          </div>
+
+          <div class="contact__field">
+            <label for="contact-email" class="contact__label">E-mail</label>
+            <input
+              type="email"
+              id="contact-email"
+              name="email"
+              class="contact__input"
+              placeholder="E-mail"
+              required
+              autocomplete="email"
+            />
+          </div>
+
+          <div class="contact__field">
+            <label for="contact-message" class="contact__label">Bericht</label>
+            <textarea
+              id="contact-message"
+              name="message"
+              class="contact__textarea"
+              rows="4"
+              placeholder="Bericht"
+            ></textarea>
+          </div>
+
+          <button type="submit" class="btn btn--accent contact__submit">Verstuur bericht</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  .contact {
+    background: var(--color-bg);
+  }
+
+  .contact__inner {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--space-2xl);
+    align-items: center;
+    max-width: var(--container-max);
+    margin-inline: auto;
+  }
+
+  .contact__visual {
+    display: flex;
+    justify-content: center;
+  }
+
+  .contact__visual img {
+    width: 100%;
+    max-width: 28rem;
+    border-radius: var(--radius-lg);
+    object-fit: contain;
+  }
+
+  .contact__content {
+    max-width: 36rem;
+    margin-inline: auto;
+    width: 100%;
+  }
+
+  .contact__title {
+    margin-bottom: var(--space-md);
+  }
+
+  .contact__subtitle {
+    margin-bottom: var(--space-xl);
+    opacity: 0.9;
+    line-height: 1.65;
+  }
+
+  .contact__form {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-lg);
+  }
+
+  .contact__field {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-xs);
+  }
+
+  .contact__label {
+    font-size: var(--text-sm);
+    font-weight: 600;
+  }
+
+  .contact__input,
+  .contact__textarea {
+    padding: 0.9375rem 1.125rem;
+    border: 1px solid rgba(0, 0, 0, 0.18);
+    border-radius: var(--radius-sm);
+    background: var(--color-primary);
+    transition:
+      border-color var(--transition-fast),
+      box-shadow var(--transition-fast);
+  }
+
+  .contact__input:focus,
+  .contact__textarea:focus {
+    outline: none;
+    border-color: var(--color-accent);
+    box-shadow: 0 0 0 3px rgba(116, 255, 128, 0.25);
+  }
+
+  .contact__textarea {
+    resize: vertical;
+    min-height: 8rem;
+  }
+
+  .contact__submit {
+    align-self: flex-start;
+    min-width: 12rem;
+    padding-inline: 2rem;
+  }
+
+  @media (min-width: 1024px) {
+    .contact__inner {
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+      gap: var(--layout-split-gap);
+    }
+
+    .contact__visual {
+      justify-content: flex-end;
+    }
+
+    .contact__visual img {
+      max-width: var(--layout-media-max);
+    }
+
+    .contact__content {
+      margin-inline: 0;
+      max-width: none;
+    }
+  }
+</style>

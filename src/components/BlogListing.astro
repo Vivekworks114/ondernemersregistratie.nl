@@ -1,0 +1,70 @@
+---
+import { getCollection } from 'astro:content';
+import BlogCard from './BlogCard.astro';
+
+interface Props {
+  limit?: number;
+}
+
+const { limit } = Astro.props;
+
+const posts = (await getCollection('blog')).sort(
+  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+);
+
+const displayPosts = limit ? posts.slice(0, limit) : posts;
+
+function formatDate(date: Date) {
+  return date.toLocaleDateString('en-GB', {
+    day: 'numeric',
+    month: 'long',
+    year: 'numeric',
+  });
+}
+---
+
+<section class="blog-listing section">
+  <div class="container">
+    <div class="blog-listing__grid">
+      {
+        displayPosts.map((post) => (
+          <BlogCard
+            title={post.data.title}
+            excerpt={post.data.description}
+            date={formatDate(post.data.pubDate)}
+            dateISO={post.data.pubDate.toISOString()}
+            slug={post.data.slug || post.id}
+            featuredImage={post.data.featuredImage}
+            variant="full"
+          />
+        ))
+      }
+    </div>
+  </div>
+</section>
+
+<style>
+  .blog-listing {
+    background: var(--color-primary);
+    padding-block: var(--space-section);
+  }
+
+  .blog-listing__grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--space-xl);
+  }
+
+  @media (min-width: 768px) {
+    .blog-listing__grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .blog-listing__grid {
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2.1875rem;
+    }
+  }
+</style>

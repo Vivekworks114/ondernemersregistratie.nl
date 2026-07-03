@@ -1,0 +1,18 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import Hero from '../../components/Hero.astro';
+import Contact from '../../components/Contact.astro';
+---
+
+<PageLayout
+  title="Contact opnemen - Ondernemersregistratie.nl"
+  description="Heb je vragen over het registreren van je onderneming of heb je ondersteuning nodig bij het vinden van de juiste bedrijfsgegevens? Neem contact met ons op."
+>
+  <Hero
+    title="Contact opnemen"
+    subtitle="Heb je vragen over het registreren van je onderneming of heb je ondersteuning nodig bij het vinden van de juiste bedrijfsgegevens? Bij ondernemersregistratie.nl staan we voor je klaar om je snel en effectief verder te helpen."
+    showSearch={false}
+    showVisual={false}
+  />
+  <Contact showImage={true} />
+</PageLayout>

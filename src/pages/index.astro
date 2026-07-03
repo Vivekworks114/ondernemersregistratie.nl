@@ -1,0 +1,18 @@
+---
+import PageLayout from '../layouts/PageLayout.astro';
+import Hero from '../components/Hero.astro';
+import Services from '../components/Services.astro';
+import Updates from '../components/Updates.astro';
+import PhoneDirectories from '../components/PhoneDirectories.astro';
+import Contact from '../components/Contact.astro';
+import Features from '../components/Features.astro';
+---
+
+<PageLayout>
+  <Hero />
+  <Services />
+  <Updates limit={6} />
+  <PhoneDirectories />
+  <Contact />
+  <Features />
+</PageLayout>

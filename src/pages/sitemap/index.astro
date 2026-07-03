@@ -1,0 +1,61 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import Hero from '../../components/Hero.astro';
+import sitemapHtml from '../../data/sitemapContent.html?raw';
+---
+
+<PageLayout
+  title="Sitemap - Ondernemersregistratie.nl"
+  description="Overzicht van alle pagina's op ondernemersregistratie.nl."
+>
+  <Hero
+    title="Sitemap"
+    subtitle="Vind snel elke pagina op ondernemersregistratie.nl."
+    showSearch={false}
+    showVisual={false}
+  />
+  <section class="sitemap section">
+    <div class="container">
+      <div class="sitemap__content wp-content" set:html={sitemapHtml} />
+    </div>
+  </section>
+</PageLayout>
+
+<style>
+  .sitemap {
+    padding-block: var(--space-section);
+    background: var(--color-primary);
+  }
+
+  .sitemap__content :global(.wsp-container h2) {
+    font-family: var(--font-heading);
+    font-size: var(--text-xl);
+    margin-top: var(--space-2xl);
+    margin-bottom: var(--space-md);
+  }
+
+  .sitemap__content :global(.wsp-container h2:first-child) {
+    margin-top: 0;
+  }
+
+  .sitemap__content :global(.wsp-container ul) {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr));
+    gap: 0.375rem 1.5rem;
+    margin-bottom: var(--space-xl);
+  }
+
+  .sitemap__content :global(.wsp-container li) {
+    font-size: var(--text-sm);
+  }
+
+  .sitemap__content :global(.wsp-container a) {
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+
+  .sitemap__content :global(.wsp-container a:hover) {
+    color: var(--color-accent-dark);
+    opacity: 1;
+  }
+</style>
