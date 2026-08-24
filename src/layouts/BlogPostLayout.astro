@@ -1,54 +1,55 @@
 ---
-import PageLayout from './PageLayout.astro';
 import type { CollectionEntry } from 'astro:content';
+import PageLayout from './PageLayout.astro';
+import { resolveHeroImageOrStock } from '../lib/blogImages';
+import { formatBlogDate, postSlug, postUrl } from '../lib/blogPosts';
 
 interface Props {
   entry: CollectionEntry<'blog'>;
 }
 
 const { entry } = Astro.props;
-
-function formatDate(date: Date) {
-  return date.toLocaleDateString('en-GB', {
-    day: 'numeric',
-    month: 'long',
-    year: 'numeric',
-  });
-}
-
-const pubDate = formatDate(entry.data.pubDate);
-const slug = entry.data.slug || entry.id;
+const pubDate = formatBlogDate(entry.data.pubDate);
+const slug = postSlug(entry);
+const heroSrc = resolveHeroImageOrStock(entry.data, entry.body, slug, entry.data.title);
+const canonical = `https://ondernemersregistratie.nl${postUrl(entry)}`;
 ---
 
 <PageLayout
   title={`${entry.data.title} - Ondernemersregistratie.nl`}
   description={entry.data.description}
+  canonical={canonical}
 >
   <article class="blog-post section">
     <div class="container container--narrow">
       <div class="blog-post__layout">
-      <header class="blog-post__header">
-        <a href="/updates/" class="blog-post__back">← Terug naar updates</a>
-        <time class="blog-post__date" datetime={entry.data.pubDate.toISOString()}>
-          {pubDate}
-        </time>
-        <h1 class="blog-post__title">{entry.data.title}</h1>
-        {entry.data.author && <p class="blog-post__author">Door {entry.data.author}</p>}
-      </header>
+        <header class="blog-post__header">
+          <a href="/updates/" class="blog-post__back">← Terug naar updates</a>
+          <time class="blog-post__date" datetime={entry.data.pubDate.toISOString()}>
+            {pubDate}
+          </time>
+          <h1 class="blog-post__title">{entry.data.title}</h1>
+          {entry.data.author && <p class="blog-post__author">Door {entry.data.author}</p>}
+        </header>
 
-      <div class="blog-post__featured">
-        <img
-          src={entry.data.featuredImage}
-          alt={entry.data.title}
-          width="1024"
-          height="576"
-          loading="eager"
-        />
-      </div>
+        {
+          heroSrc && (
+            <div class="blog-post-hero">
+              <img
+                src={heroSrc}
+                alt={entry.data.title}
+                width="1080"
+                height="420"
+                loading="eager"
+                decoding="async"
+              />
+            </div>
+          )
+        }
 
-      <div class="blog-post__content prose">
-        <slot />
-      </div>
+        <div class="blog-post__content prose">
+          <slot />
+        </div>
       </div>
     </div>
   </article>
@@ -98,22 +99,23 @@ const slug = entry.data.slug || entry.id;
     max-width: none;
   }
 
-  .blog-post__featured {
-    aspect-ratio: 16 / 9;
-    border-radius: var(--radius-lg);
-    overflow: hidden;
-    margin-bottom: var(--space-2xl);
-    background: rgba(0, 0, 0, 0.04);
+  .blog-post-hero {
+    margin: 0 0 1.5rem;
   }
 
-  .blog-post__featured img {
+  .blog-post-hero img {
     width: 100%;
-    height: 100%;
+    max-height: 420px;
+    height: auto;
     object-fit: cover;
+    border-radius: var(--radius-lg);
+    display: block;
+    background: rgba(0, 0, 0, 0.04);
   }
 
   .blog-post__content {
     max-width: none;
+    text-align: left;
   }
 
   .blog-post__content :global(h2) {
@@ -128,5 +130,7 @@ const slug = entry.data.slug || entry.id;
   .blog-post__content :global(img) {
     border-radius: var(--radius-md);
     margin-block: var(--space-lg);
+    max-width: 100%;
+    height: auto;
   }
 </style>

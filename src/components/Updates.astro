@@ -1,6 +1,8 @@
 ---
 import BlogCard from './BlogCard.astro';
 import { getCollection } from 'astro:content';
+import { resolveCardImageOrPlaceholder } from '../lib/blogImages';
+import { formatBlogDate, postSlug, sortBlogPosts } from '../lib/blogPosts';
 
 interface Props {
   limit?: number;
@@ -9,19 +11,8 @@ interface Props {
 
 const { limit = 6, showHeader = true } = Astro.props;
 
-const posts = (await getCollection('blog')).sort(
-  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
-);
-
+const posts = sortBlogPosts(await getCollection('blog'));
 const displayPosts = posts.slice(0, limit);
-
-function formatDate(date: Date) {
-  return date.toLocaleDateString('en-GB', {
-    day: 'numeric',
-    month: 'long',
-    year: 'numeric',
-  });
-}
 ---
 
 <section class="updates section">
@@ -40,17 +31,25 @@ function formatDate(date: Date) {
 
     <div class="updates__grid">
       {
-        displayPosts.map((post) => (
-          <BlogCard
-            title={post.data.title}
-            excerpt={post.data.description}
-            date={formatDate(post.data.pubDate)}
-            dateISO={post.data.pubDate.toISOString()}
-            slug={post.data.slug || post.id}
-            featuredImage={post.data.featuredImage}
-            variant="compact"
-          />
-        ))
+        displayPosts.map((post) => {
+          const slug = postSlug(post);
+          return (
+            <BlogCard
+              title={post.data.title}
+              excerpt={post.data.description}
+              date={formatBlogDate(post.data.pubDate)}
+              dateISO={post.data.pubDate.toISOString()}
+              slug={slug}
+              featuredImage={resolveCardImageOrPlaceholder(
+                post.data,
+                post.body,
+                slug,
+                post.data.title,
+              )}
+              variant="compact"
+            />
+          );
+        })
       }
     </div>
 

@@ -5,32 +5,36 @@ interface Props {
   date: string;
   dateISO: string;
   slug: string;
-  featuredImage: string;
+  featuredImage?: string;
   variant?: 'compact' | 'full';
 }
 
-const { title, excerpt, date, dateISO, slug, featuredImage, variant = 'full' } = Astro.props;
+const {
+  title,
+  excerpt,
+  date,
+  dateISO,
+  slug,
+  featuredImage = '/images/blog/featured-1.png',
+  variant = 'full',
+} = Astro.props;
 const postUrl = `/${slug}/`;
-const showImage = variant === 'full';
+const isCompact = variant === 'compact';
 ---
 
-<article class:list={['blog-card', !showImage && 'blog-card--compact']}>
-  {
-    showImage && (
-      <a href={postUrl} class="blog-card__image-link" tabindex="-1" aria-hidden="true">
-        <div class="blog-card__image">
-          <img
-            src={featuredImage}
-            alt=""
-            width="1024"
-            height="576"
-            loading="lazy"
-            decoding="async"
-          />
-        </div>
-      </a>
-    )
-  }
+<article class:list={['blog-card', isCompact && 'blog-card--compact']}>
+  <a href={postUrl} class="blog-card__image-link" tabindex="-1" aria-hidden="true">
+    <div class="blog-card__image">
+      <img
+        src={featuredImage}
+        alt=""
+        width="1024"
+        height="576"
+        loading="lazy"
+        decoding="async"
+      />
+    </div>
+  </a>
   <div class="blog-card__body">
     <h3 class="blog-card__title">
       <a href={postUrl}>{title}</a>
@@ -68,7 +72,7 @@ const showImage = variant === 'full';
   }
 
   .blog-card__image {
-    aspect-ratio: 16 / 9;
+    aspect-ratio: 16 / 10;
     overflow: hidden;
     background: rgba(0, 0, 0, 0.04);
   }
@@ -76,7 +80,9 @@ const showImage = variant === 'full';
   .blog-card__image img {
     width: 100%;
     height: 100%;
+    max-height: 220px;
     object-fit: cover;
+    display: block;
     transition: transform var(--transition-slow);
   }
 
@@ -141,8 +147,18 @@ const showImage = variant === 'full';
     box-shadow: none;
   }
 
+  .blog-card--compact .blog-card__image {
+    aspect-ratio: 16 / 10;
+    border-radius: var(--radius-md);
+    overflow: hidden;
+  }
+
+  .blog-card--compact .blog-card__image img {
+    max-height: 180px;
+  }
+
   .blog-card--compact .blog-card__body {
-    padding: var(--space-lg) 0;
+    padding: var(--space-md) 0 var(--space-lg);
     gap: 0.625rem;
   }
 
@@ -167,5 +183,9 @@ const showImage = variant === 'full';
   .blog-card--compact .blog-card__read-more {
     padding-top: var(--space-xs);
     font-weight: 700;
+  }
+
+  .blog-card--compact:hover .blog-card__image img {
+    transform: none;
   }
 </style>

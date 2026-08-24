@@ -2,11 +2,13 @@
 interface Props {
   title?: string;
   description?: string;
+  canonical?: string;
 }
 
 const {
   title = 'Ondernemersregistratie.nl – Slim zoeken in het bedrijvenregister',
   description = 'Vind geregistreerde bedrijven of meld je eigen onderneming aan. Eenvoudig zoeken op naam, branche of locatie – helder en actueel.',
+  canonical,
 } = Astro.props;
 ---
 
@@ -16,6 +18,7 @@ const {
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content={description} />
+    {canonical && <link rel="canonical" href={canonical} />}
     <link rel="icon" type="image/jpeg" href="/favicon.jpg" />
     <link rel="apple-touch-icon" href="/favicon.jpg" />
     <title>{title}</title>

@@ -1,0 +1,55 @@
+---
+import { getCollection, render } from 'astro:content';
+import BlogPostLayout from '../layouts/BlogPostLayout.astro';
+import PhonePageLayout from '../layouts/PhonePageLayout.astro';
+import phonePages from '../data/phonePages.json';
+import {
+  postRouteSlugs,
+  RESERVED_ROOT_SLUGS,
+  type BlogEntry,
+} from '../lib/blogPosts';
+
+export async function getStaticPaths() {
+  const blogEntries = (await getCollection('blog')).filter((entry) => !entry.data.draft);
+  const blogSlugs = new Set(blogEntries.flatMap((entry) => postRouteSlugs(entry)));
+
+  const blogPaths = blogEntries.flatMap((entry) =>
+    postRouteSlugs(entry)
+      .filter((slug) => !RESERVED_ROOT_SLUGS.has(slug))
+      .map((slug) => ({
+        params: { slug },
+        props: { kind: 'blog' as const, entry },
+      })),
+  );
+
+  const phonePaths = phonePages
+    .filter((page) => !RESERVED_ROOT_SLUGS.has(page.slug) && !blogSlugs.has(page.slug))
+    .map((page) => ({
+      params: { slug: page.slug },
+      props: { kind: 'phone' as const, phone: page },
+    }));
+
+  return [...blogPaths, ...phonePaths];
+}
+
+type Props =
+  | { kind: 'blog'; entry: BlogEntry }
+  | { kind: 'phone'; phone: (typeof phonePages)[number] };
+
+const props = Astro.props as Props;
+
+let Content: Awaited<ReturnType<typeof render>>['Content'] | undefined;
+if (props.kind === 'blog') {
+  ({ Content } = await render(props.entry));
+}
+---
+
+{
+  props.kind === 'blog' && Content ? (
+    <BlogPostLayout entry={props.entry}>
+      <Content />
+    </BlogPostLayout>
+  ) : props.kind === 'phone' ? (
+    <PhonePageLayout label={props.phone.label} slug={props.phone.slug} />
+  ) : null
+}
