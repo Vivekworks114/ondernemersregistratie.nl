@@ -7,8 +7,9 @@ categories:
   - "Uncategorised"
 featuredImage: "/images/blog/featured-3.png"
 slug: "een-professioneel-relatiegeschenk-kiezen-waar-let-je-op"
+source: "wordpress"
+legacy: true
 ---
-
 <p>Een professioneel relatiegeschenk lijkt soms een klein gebaar. Toch kan het veel zeggen over je bedrijf. Het laat zien dat je aandacht hebt voor de samenwerking en het kan helpen om een zakelijke band op een persoonlijke manier te versterken. Een goed relatiegeschenk kies je daarom niet alleen op prijs. Je kijkt ook naar de ontvanger, het moment en de boodschap die je wilt overbrengen. Tegenwoordig zien we dat personalisatie, duurzaamheid en kwaliteit steeds vaker meewegen bij de keuze. Wij vertellen je in deze blog graag meer over waar je het beste op kunt letten bij het kiezen van een professioneel relatiegeschenk.</p>
 <h2>De waarde van een professioneel relatiegeschenk</h2>
 <p>Een professioneel relatiegeschenk helpt om waardering op een tastbare manier te tonen. Je laat zien dat je de samenwerking serieus neemt en aandacht hebt voor de relatie achter het zakelijke contact. Dat kan na een afgerond project, rond de feestdagen of bij een jubileum. Een goed gekozen geschenk voelt persoonlijk zonder overdreven te worden. Het past daarnaast bij je bedrijf en bij de ontvanger. Daardoor wordt het meer dan een aardigheidje en krijgt het gebaar meer waarde. Het is het dus waard om in een goed relatiegeschenk te investeren.</p>

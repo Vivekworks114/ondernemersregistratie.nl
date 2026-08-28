@@ -6,11 +6,12 @@ import phonePages from '../data/phonePages.json';
 import {
   postRouteSlugs,
   RESERVED_ROOT_SLUGS,
+  isLiveBlogPost,
   type BlogEntry,
 } from '../lib/blogPosts';
 
 export async function getStaticPaths() {
-  const blogEntries = (await getCollection('blog')).filter((entry) => !entry.data.draft);
+  const blogEntries = (await getCollection('blog')).filter(isLiveBlogPost);
   const blogSlugs = new Set(blogEntries.flatMap((entry) => postRouteSlugs(entry)));
 
   const blogPaths = blogEntries.flatMap((entry) =>

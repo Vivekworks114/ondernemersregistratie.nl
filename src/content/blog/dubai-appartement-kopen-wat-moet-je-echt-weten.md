@@ -8,8 +8,9 @@ categories:
   - "Blog"
 featuredImage: "/images/content/2026/02/Dubai-appartementen.jpg"
 slug: "dubai-appartement-kopen-wat-moet-je-echt-weten"
+source: "wordpress"
+legacy: true
 ---
-
 <p>Dubai is een stad die altijd “aan” staat. Wolkenkrabbers, strand, shopping malls en zon in overdrive. Steeds meer mensen denken: waarom hier geen appartement kopen? Misschien een slim idee, maar er zitten ook haken en ogen aan. In dit artikel neem ik je relaxed mee langs de belangrijkste dingen die je echt moet weten, zonder saaie praat.</p>
 
 

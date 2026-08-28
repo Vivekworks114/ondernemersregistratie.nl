@@ -7,8 +7,9 @@ categories:
   - "Uncategorised"
 featuredImage: "/images/blog/featured-5.png"
 slug: "wat-kleine-bedrijven-vaak-verkeerd-doen-in-hun-online-marketing"
+source: "wordpress"
+legacy: true
 ---
-
 <p>Online marketing is voor veel kleine bedrijven een bron van frustratie. Ze investeren tijd en soms ook geld, maar de resultaten blijven uit. Herken je dat? Dan maak je waarschijnlijk een van deze veelgemaakte fouten.</p>
 <h2>Fout 1: geen duidelijke doelgroep bepalen</h2>
 <p>Wil je dit aanpakken met een specialist? Kijk dan op <strong><a href="https://www.brutael.nl/" target="_blank" rel="noopener">https://www.brutael.nl/</a></strong> voor eerlijk advies en een aanpak die past bij jouw bedrijf.</p>

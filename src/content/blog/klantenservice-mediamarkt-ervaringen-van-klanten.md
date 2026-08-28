@@ -8,8 +8,9 @@ categories:
   - "Blog"
 featuredImage: "/images/content/2026/02/Klantenservice-Mediamarkt.jpg"
 slug: "klantenservice-mediamarkt-ervaringen-van-klanten"
+source: "wordpress"
+legacy: true
 ---
-
 <p>Heb je ooit met een bonnetje in je hand bij de servicebalie gestaan terwijl je dacht: dit wordt spannend? Dan ben je niet de enige. Klantenservice kan voelen als een achtbaan. In dit artikel neem ik je mee in de ervaringen van klanten met de service van MediaMarkt. Wat gaat top, wat kan beter, en wat kun je zelf slim aanpakken?</p>
 
 

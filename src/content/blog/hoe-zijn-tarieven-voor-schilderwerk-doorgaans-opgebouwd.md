@@ -8,8 +8,9 @@ categories:
   - "Uncategorised"
 featuredImage: "/images/content/2026/04/featured-24-scaled.jpg"
 slug: "hoe-zijn-tarieven-voor-schilderwerk-doorgaans-opgebouwd"
+source: "wordpress"
+legacy: true
 ---
-
 <p>Tarieven voor schilderwerk bestaan uit meerdere onderdelen die samen de totaalprijs bepalen. Vaak zie je één bedrag, terwijl daar verschillende keuzes achter schuilgaan. Denk aan arbeid, materiaal, voorbereiding en bereikbaarheid. Elk onderdeel heeft invloed op de uiteindelijke kosten. Daardoor kunnen offertes sterk verschillen, zelfs bij vergelijkbare woningen.</p>
 <p>Inzicht in deze opbouw helpt bij het beoordelen van een offerte. Je ziet sneller wat er wel en niet is inbegrepen en herkent verschillen tussen aanbieders. Zo maak je een gerichtere keuze. Niet alleen de prijs is belangrijk, maar juist de samenstelling ervan. Dat geeft meer grip op de totale kosten.</p>
 <h2>Welke factoren bepalen de prijs van schilderwerk?</h2>

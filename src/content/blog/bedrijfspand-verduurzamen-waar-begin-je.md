@@ -7,8 +7,9 @@ categories:
   - "Uncategorised"
 featuredImage: "/images/blog/featured-11.png"
 slug: "bedrijfspand-verduurzamen-waar-begin-je"
+source: "wordpress"
+legacy: true
 ---
-
 <p>Een bedrijfspand verduurzamen kan op veel manieren. Denk aan energieverbruik, isolatie, installaties en dagelijkse werkprocessen. Toch is het niet altijd duidelijk waar je begint. Door eerst goed naar je pand te kijken, maak je betere keuzes. Zo voorkom je losse maatregelen die weinig opleveren. In deze blog lees je welke stappen logisch zijn. Zo kun je gericht werken aan een duurzamer en efficiënter bedrijfspand.</p>
 <h2>Breng je energieverbruik in kaart</h2>
 <p>Wie zijn bedrijfspand wil verduurzamen, begint met inzicht. Kijk daarom eerst naar het huidige energieverbruik. Waar gaat de meeste energie naartoe? Denk aan verlichting, verwarming, koeling, machines en elektrische apparaten. Ook openingstijden en het aantal medewerkers hebben invloed op het verbruik. Bekijk de energierekeningen van de afgelopen maanden of jaren. Zo zie je wanneer het verbruik hoog is. Misschien verbruik je vooral veel energie in de winter. Of juist in de zomer door koeling en ventilatie. Deze informatie is belangrijk bij het maken van toekomstige beslissingen.</p>

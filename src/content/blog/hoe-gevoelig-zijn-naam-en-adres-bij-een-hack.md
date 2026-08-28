@@ -8,8 +8,9 @@ categories:
   - "Uncategorised"
 featuredImage: "/images/blog/featured-6.png"
 slug: "hoe-gevoelig-zijn-naam-en-adres-bij-een-hack"
+source: "wordpress"
+legacy: true
 ---
-
 <p>Bij een hack lekken vaak naam- en adresgegevens. Dat lijkt onschuldig, toch kan misbruik volgen. Criminelen combineren deze gegevens met andere informatie. Zo bouwen zij profielen die overtuigend ogen. Daardoor nemen risico’s toe zonder directe signalen. Je ontvangt bijvoorbeeld gerichte berichten of ongewenste post. Ook verschijnen bestellingen op jouw naam. Dat gebeurt zonder dat betaalgegevens zijn buitgemaakt. Daarom wil je weten hoe gevoelig deze gegevens zijn. Niet elk lek veroorzaakt direct schade. Toch kan hergebruik later problemen geven. Vooral wanneer meerdere datalekken samenkomen. Je wilt snel inschatten of actie nodig is. Daarom helpt inzicht in de waarde van naam- en adresgegevens. Zo herken je signalen eerder. Bovendien reageer je gerichter bij misbruik.</p>
 
 

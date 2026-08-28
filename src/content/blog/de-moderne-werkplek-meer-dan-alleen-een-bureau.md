@@ -8,8 +8,9 @@ categories:
   - "Blog"
 featuredImage: "/images/content/2026/02/Bedrijfsaansprakelijkheidsverzekering.jpg"
 slug: "de-moderne-werkplek-meer-dan-alleen-een-bureau"
+source: "wordpress"
+legacy: true
 ---
-
 <p>In een wereld waarin thuiswerken en digitale meetings de norm lijken te worden, vragen veel ondernemers zich af of een fysiek kantoor nog wel nodig is. De keukentafel functioneert prima als bureau en online tools maken samenwerken op afstand eenvoudiger dan ooit. Toch is de fysieke werkplek verre van achterhaald. Sterker nog, een slim gekozen locatie kan een krachtig instrument zijn voor de groei en professionalisering van je bedrijf.</p>
 
 

@@ -1,9 +1,9 @@
 ---
 import { getCollection } from 'astro:content';
-import { postRouteSlugs, postUrl, type BlogEntry } from '../../lib/blogPosts';
+import { postRouteSlugs, postUrl, isLiveBlogPost, type BlogEntry } from '../../lib/blogPosts';
 
 export async function getStaticPaths() {
-  const posts = (await getCollection('blog')).filter((entry) => !entry.data.draft);
+  const posts = (await getCollection('blog')).filter(isLiveBlogPost);
 
   return posts.flatMap((post) =>
     postRouteSlugs(post).map((slug) => ({

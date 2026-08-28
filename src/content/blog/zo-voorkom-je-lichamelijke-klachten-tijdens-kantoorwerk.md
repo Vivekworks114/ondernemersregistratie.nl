@@ -7,8 +7,9 @@ categories:
   - "Uncategorised"
 featuredImage: "/images/content/2026/06/featured-1.png"
 slug: "zo-voorkom-je-lichamelijke-klachten-tijdens-kantoorwerk"
+source: "wordpress"
+legacy: true
 ---
-
 <p>Nekpijn, stijve schouders, rugklachten of vermoeide polsen ontstaan vaak door langdurig kantoorwerk. Veel klachten ontwikkelen zich geleidelijk, waardoor ze pas opvallen wanneer werken minder prettig voelt. Vaak spelen houding, beweging plus werkplekinrichting daarbij een rol. Daarom helpt het om aandacht te besteden aan dagelijkse gewoonten achter het bureau. Regelmatige afwisseling houdt spieren actief. Daarnaast zorgt een passende werkhouding voor minder belasting van gewrichten. Ook korte beweegmomenten maken verschil tijdens een drukke werkdag. Door vroeg aandacht te besteden aan signalen van overbelasting verklein je de kans op aanhoudende klachten.</p>
 <h2>Hoe langdurig zitten invloed heeft op je lichaam</h2>
 <p>Langdurig zitten zorgt ervoor dat verschillende spiergroepen weinig actief blijven. Daardoor neemt de spanning in nek, schouders plus onderrug vaak toe. Tegelijkertijd vertraagt de doorbloeding wanneer je lange periodes dezelfde houding aanhoudt. Hierdoor kunnen spieren stijver aanvoelen gedurende de dag. Ook gewrichten bewegen minder, waardoor soepelheid afneemt. Vooral beeldschermwerk vergroot dit risico. Je kijkt langdurig in dezelfde richting, terwijl je armen veel herhalende bewegingen maken.</p>

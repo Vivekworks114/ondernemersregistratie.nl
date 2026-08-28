@@ -7,8 +7,9 @@ categories:
   - "Uncategorised"
 featuredImage: "/images/blog/featured-5.png"
 slug: "waarom-een-goed-hijsplan-vaak-duizenden-euros-vertraging-voorkomt-hoe-wordt-tijdsdruk-veilig-opgevangen"
+source: "wordpress"
+legacy: true
 ---
-
 <p>Bij hijswerkzaamheden draait alles om voorbereiding, veiligheid en controle. Zeker wanneer zware machines, installaties of constructiedelen moeten worden verplaatst, kan een kleine fout grote gevolgen hebben voor de voortgang van een project. Vertragingen zorgen niet alleen voor extra kosten, maar kunnen ook productieprocessen, logistieke planning en andere werkzaamheden onder druk zetten.</p>
 <p>Binnen veel projecten speelt tijdsdruk een grote rol. Deadlines moeten worden gehaald, werkzaamheden volgen elkaar snel op en meerdere partijen zijn afhankelijk van een strakke planning. Juist in die situaties is een goed hijsplan essentieel. Door vooraf alle risico’s en aandachtspunten in kaart te brengen, kunnen onverwachte problemen tijdens de uitvoering zoveel mogelijk worden voorkomen.</p>
 <p>Bent u op zoek naar een ervaren partij die hijswerkzaamheden veilig en efficiënt uitvoert? Kijk dan op <a href="https://www.vandijkdemeern.nl/" target="_blank" rel="noopener">https://www.vandijkdemeern.nl/</a> voor meer informatie.</p>

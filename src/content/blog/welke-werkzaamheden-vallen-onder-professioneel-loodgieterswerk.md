@@ -8,8 +8,9 @@ categories:
   - "Uncategorised"
 featuredImage: "/images/content/2026/04/featured-23-scaled.jpg"
 slug: "welke-werkzaamheden-vallen-onder-professioneel-loodgieterswerk"
+source: "wordpress"
+legacy: true
 ---
-
 <p>Professioneel loodgieterswerk omvat de installatie, het onderhoud en de reparatie van water- en verwarmingssystemen. Je krijgt te maken met leidingen, sanitair en riolering in huis. Problemen ontstaan vaak onverwacht door slijtage of verkeerd gebruik, waardoor je snel wilt weten welke werkzaamheden een loodgieter uitvoert.</p>
 <p>Door inzicht te hebben in deze taken herken je signalen eerder en voorkom je schade. Verschillende werkzaamheden vragen om vakkennis en nauwkeurig werk. Kleine fouten kunnen grote gevolgen hebben voor je woning. Daarom kiezen veel mensen voor een vakman bij technische werkzaamheden.</p>
 <h2>Installatie van waterleidingen en sanitair</h2>

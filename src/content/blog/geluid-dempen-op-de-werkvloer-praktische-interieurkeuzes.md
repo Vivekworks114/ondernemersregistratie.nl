@@ -7,8 +7,9 @@ categories:
   - "Uncategorised"
 featuredImage: "/images/content/2026/06/featured-7.png"
 slug: "geluid-dempen-op-de-werkvloer-praktische-interieurkeuzes"
+source: "wordpress"
+legacy: true
 ---
-
 <p>Geluidsoverlast op de werkvloer vermindert vaak de concentratie. Gesprekken, telefoons, loopgeluiden plus apparatuur zorgen voor afleiding. Daardoor kosten taken meer tijd of neemt de kans op fouten toe. De inrichting van een ruimte heeft veel invloed op de akoestiek. Harde materialen versterken geluid, terwijl zachte materialen geluid deels opnemen. Daardoor ontstaat een prettigere werkomgeving. Met gerichte keuzes voor vloeren, wanden, plafonds plus meubilair kun je storende geluiden beperken zonder ingrijpende aanpassingen.</p>
 <h2>Hoe geluid zich verspreidt in een kantooromgeving</h2>
 <p>Geluid beweegt zich voortdurend door een kantoorruimte. Harde oppervlakken kaatsen geluidsgolven terug, waardoor galm ontstaat. Daardoor blijven gesprekken langer hoorbaar. Vooral open werkvloeren hebben hiermee te maken. Grote ramen, gladde vloeren plus strakke wanden versterken dit effect vaak. Daarnaast verspreiden stemmen zich eenvoudig door een ruimte zonder fysieke onderbrekingen. Ook printers, ventilatiesystemen plus telefoons verhogen het geluidsniveau. Hoe meer geluid weerkaatst, hoe drukker een ruimte klinkt.</p>

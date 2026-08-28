@@ -7,8 +7,9 @@ categories:
   - "Uncategorised"
 featuredImage: "/images/blog/featured-5.png"
 slug: "zo-bouw-je-slim-aan-je-financiele-toekomst-als-ondernemer"
+source: "wordpress"
+legacy: true
 ---
-
 <p>Als ondernemer geniet je van vrijheid en de mogelijkheid om je eigen koers te varen. Maar die vrijheid brengt ook verantwoordelijkheden met zich mee. Eén van de belangrijkste daarvan is je pensioen. In tegenstelling tot werknemers in loondienst, wordt er voor jou niet automatisch een potje voor later opgebouwd. Je moet hier zelf volledig de regie in nemen.</p>
 <p>Gelukkig sta je er niet alleen voor. De overheid moedigt ondernemers actief aan om te sparen voor hun oude dag. Dit doet ze door aantrekkelijke fiscale voordelen te bieden. Door slim gebruik te maken van deze regelingen, kun je niet alleen werken aan een financieel zorgeloze toekomst, maar bespaar je vandaag al op je belastingaanslag. Het is een win-winsituatie die je niet wilt laten liggen.</p>
 <h2>Pensioen met belastingvoordeel</h2>

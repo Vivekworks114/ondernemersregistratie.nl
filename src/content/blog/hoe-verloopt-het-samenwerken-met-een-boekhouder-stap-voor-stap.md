@@ -8,8 +8,9 @@ categories:
   - "Uncategorised"
 featuredImage: "/images/content/2026/04/featured-22-scaled.jpg"
 slug: "hoe-verloopt-het-samenwerken-met-een-boekhouder-stap-voor-stap"
+source: "wordpress"
+legacy: true
 ---
-
 <p>Je werkt met een boekhouder om je administratie overzichtelijk te houden. Je levert gegevens aan, waarna de verwerking volgt. Vervolgens bespreek je de cijfers op vaste momenten, zodat je inzicht krijgt in je financiële situatie. Door deze werkwijze voorkom je fouten en weet je wat er in elke fase van je verwacht wordt.</p>
 <p>Dit voorkomt vertraging tijdens drukke periodes en geeft ruimte voor vragen of overleg. Er ontstaat een vast ritme, waardoor je grip houdt op je cijfers zonder extra druk. De boekhouder bewaakt ondertussen de financiële kant. Zo verloopt de samenwerking gestructureerd en voorspelbaar.</p>
 <h2>Kennismaking en inventarisatie van de situatie</h2>

@@ -8,8 +8,9 @@ categories:
   - "Blog"
 featuredImage: "/images/content/2026/02/pexels-dominikagregus-669228.jpg"
 slug: "de-kracht-van-online-marketing-voor-ondernemers"
+source: "wordpress"
+legacy: true
 ---
-
 <p>Als ondernemer heb je een fantastisch product of een geweldige dienst te bieden. Maar hoe zorg je ervoor dat de juiste mensen je weten te vinden? Vroeger was een advertentie in de lokale krant misschien genoeg, maar vandaag de dag is een sterke online aanwezigheid geen luxe meer, maar een absolute noodzaak voor groei.</p>
 
 

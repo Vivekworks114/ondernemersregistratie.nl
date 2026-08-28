@@ -23,3 +23,4 @@ scripts/download-log.txt
 
 # Astro content cache
 node_modules/.astro/
+.cache/

@@ -7,8 +7,9 @@ categories:
   - "Uncategorised"
 featuredImage: "/images/blog/featured-6.png"
 slug: "airco-op-kantoor-laten-installeren-wat-elke-ondernemer-moet-weten-voor-hij-beslist"
+source: "wordpress"
+legacy: true
 ---
-
 <p>Een goed functionerende onderneming begint bij een prettige werkomgeving. Toch is klimaatbeheersing in veel bedrijfspanden nog een ondergeschoven kind. Te warm in de zomer, te koud in het tussenseizoen en weinig grip op het binnenklimaat het hele jaar door. Een airco op kantoor lost dat op — maar er zijn meer overwegingen dan alleen comfort. Denk aan Arbo-verplichtingen, energiekosten, fiscale aftrekmogelijkheden en de keuze van het juiste systeem voor jouw pand.</p>
 <p>In dit artikel krijg je als ondernemer een helder overzicht van alles wat komt kijken bij een zakelijke airco-installatie.</p>
 <h2>De werkgever is verantwoordelijk voor een aanvaardbaar binnenklimaat</h2>

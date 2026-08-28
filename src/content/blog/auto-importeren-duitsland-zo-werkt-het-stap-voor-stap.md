@@ -8,8 +8,9 @@ categories:
   - "Blog"
 featuredImage: "/images/content/2026/02/BMW-X3.jpg"
 slug: "auto-importeren-duitsland-zo-werkt-het-stap-voor-stap"
+source: "wordpress"
+legacy: true
 ---
-
 <p>Een auto uit Duitsland halen klinkt spannend, maar het is vooral slim en leuk. Het aanbod is groot, de prijzen zijn scherp en de staat vaak top. Met een duidelijk stappenplan voorkom je stress, verrassingen en rare kosten, en rijd je straks lachend naar huis in je nieuwe trots auto.</p>
 
 

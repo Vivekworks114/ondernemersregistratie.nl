@@ -8,8 +8,9 @@ categories:
   - "Blog"
 featuredImage: "/images/blog/featured-4.png"
 slug: "hoe-je-de-juiste-leiders-voor-je-onderneming-vindt"
+source: "wordpress"
+legacy: true
 ---
-
 <p>Als ondernemer begin je vaak als de duizendpoot die alles zelf doet: van verkoop en marketing tot administratie. Maar naarmate je bedrijf groeit, komt er een punt waarop je niet meer alles alleen kunt. Succesvolle groei hangt af van het vermogen om de juiste mensen op de juiste plekken te zetten. Vooral het vinden van leiderschapstalent is een bepalende stap die de toekomst van je onderneming kan maken of breken.</p>
 
 

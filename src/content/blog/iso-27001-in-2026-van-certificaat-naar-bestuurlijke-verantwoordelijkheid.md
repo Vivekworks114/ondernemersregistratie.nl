@@ -7,8 +7,9 @@ categories:
   - "Uncategorised"
 featuredImage: "/images/blog/featured-13.png"
 slug: "iso-27001-in-2026-van-certificaat-naar-bestuurlijke-verantwoordelijkheid"
+source: "wordpress"
+legacy: true
 ---
-
 <h2>Informatieveiligheid is geen IT-thema meer</h2>
 <p>In 2026 is informatieveiligheid definitief verschoven van de IT-afdeling naar de directietafel. Dat is geen trend meer, maar een realiteit die voortkomt uit toenemende digitale afhankelijkheid. Bedrijfsprocessen, klantdata en leveranciersketens zijn zodanig verweven met technologie dat verstoringen direct impact hebben op de continuïteit van de organisatie.</p>
 <p>Voor bestuurders betekent dit dat informatieveiligheid niet langer kan worden gedelegeerd zonder betrokkenheid. De verantwoordelijkheid ligt aantoonbaar hoger in de organisatie. Incidenten raken niet alleen systemen, maar ook reputatie, contractuele verplichtingen en in toenemende mate ook juridische aansprakelijkheid.</p>

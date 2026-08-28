@@ -8,8 +8,9 @@ categories:
   - "Blog"
 featuredImage: "/images/content/2026/02/image-1.png"
 slug: "de-kracht-van-een-professionele-bedrijfsomgeving-meer-dan-alleen-een-visitekaartje"
+source: "wordpress"
+legacy: true
 ---
-
 <p>Als ondernemer steek je veel tijd en energie in je product, je marketing en je website. Je visitekaartje is tot in de puntjes verzorgd en je online aanwezigheid is vlekkeloos. Maar heb je weleens stilgestaan bij de boodschap die je fysieke bedrijfsruimte uitstraalt? Of je nu een klein kantoor, een grote werkplaats of een winkel hebt, je bedrijfsomgeving is een krachtig communicatiemiddel dat vaak wordt onderschat.</p>
 
 

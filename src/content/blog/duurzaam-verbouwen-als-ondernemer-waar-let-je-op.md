@@ -7,8 +7,9 @@ categories:
   - "Uncategorised"
 featuredImage: "/images/blog/featured-6.png"
 slug: "duurzaam-verbouwen-als-ondernemer-waar-let-je-op"
+source: "wordpress"
+legacy: true
 ---
-
 <p>Steeds meer ondernemers kiezen ervoor om hun bedrijfspand duurzamer te maken. Dat gebeurt niet alleen vanwege strengere regelgeving of stijgende energiekosten, maar ook omdat klanten en medewerkers duurzaamheid steeds belangrijker vinden. Een duurzame verbouwing kan zorgen voor lagere vaste lasten, een comfortabelere werkplek en een professionelere uitstraling van je bedrijf. Toch komt er bij duurzaam verbouwen meer kijken dan alleen zonnepanelen of ledverlichting plaatsen. Juist tijdens een verbouwing maak je keuzes die invloed hebben op energieverbruik, materiaalgebruik en afvalstromen. In deze blog lees je waar ondernemers op moeten letten bij een duurzame verbouwing.</p>
 <h2>Begin met een toekomstgericht plan</h2>
 <p>Een duurzamere verbouwing begint altijd met een duidelijk plan. Veel ondernemers focussen meteen op nieuwe materialen of installaties, terwijl juist de voorbereiding bepalend is voor het eindresultaat. Kijk daarom niet alleen naar de huidige situatie, maar denk ook vooruit. Hoe wil je het pand de komende jaren gebruiken? Verwacht je groei van personeel of veranderingen in werkzaamheden? Door ruimtes slim in te delen voorkom je dat je later opnieuw moet verbouwen. Ook energiegebruik speelt hierin een grote rol. Door vooraf te kijken naar isolatie, ventilatie en energiezuinige oplossingen kun je structureel besparen op kosten. Verschillende duurzaamheidsplatformen benadrukken bovendien dat kleine aanpassingen vaak al een groot verschil maken in het energieverbruik van bedrijven.</p>

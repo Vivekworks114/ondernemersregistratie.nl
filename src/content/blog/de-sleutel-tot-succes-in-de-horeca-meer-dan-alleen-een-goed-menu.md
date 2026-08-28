@@ -8,8 +8,9 @@ categories:
   - "Blog"
 featuredImage: "/images/content/2025/04/unsplash_eZFPIyjJQxM8.png"
 slug: "de-sleutel-tot-succes-in-de-horeca-meer-dan-alleen-een-goed-menu"
+source: "wordpress"
+legacy: true
 ---
-
 <p>Als horecaondernemer weet je dat een fantastisch menu slechts het begin is. De concurrentie is groot en gasten zoeken naar een totaalbeleving. Ze willen niet alleen lekker eten, maar ook een fijne sfeer, uitstekende service en een gevoel van comfort. De details maken het verschil tussen een eenmalig bezoek en een trouwe, terugkerende klant. Maar waar begin je?</p>
 
 

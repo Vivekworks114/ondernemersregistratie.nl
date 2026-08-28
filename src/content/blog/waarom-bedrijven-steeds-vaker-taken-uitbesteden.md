@@ -8,8 +8,9 @@ categories:
   - "Blog"
 featuredImage: "/images/blog/featured-3.png"
 slug: "waarom-bedrijven-steeds-vaker-taken-uitbesteden"
+source: "wordpress"
+legacy: true
 ---
-
 <p>Veel ondernemers starten vol passie met een droom, maar ervaren al snel dat de agenda overvol raakt met werkzaamheden die ver afstaan van hun echte talenten. De dagelijkse stroom aan randzaken neemt tijd in beslag die nodig is voor de groei van de onderneming. Wanneer je werk overdraagt aan anderen, ontstaat er lucht voor de grote plannen die het bedrijf naar een hoger niveau tillen. Het overdragen van verantwoordelijkheid is een manier om weer tijd te investeren in het fundament van het bedrijf.</p>
 
 

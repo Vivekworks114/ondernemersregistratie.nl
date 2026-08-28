@@ -7,8 +7,9 @@ categories:
   - "Uncategorised"
 featuredImage: "/images/content/2026/06/featured-11.png"
 slug: "huisdieren-op-kantoor-voordelen-aandachtspunten-en-regels"
+source: "wordpress"
+legacy: true
 ---
-
 <p>Huisdieren op kantoor worden door steeds meer werkgevers toegestaan. Dat biedt voordelen voor medewerkers die hun dier willen meenemen tijdens werktijd. Tegelijk vraagt deze keuze om duidelijke afspraken. Niet iedere werkplek is geschikt voor dieren. Ook verschillen medewerkers in hun voorkeuren of behoeften. Daarnaast verdienen gezondheid, veiligheid en hygiëne aandacht. Wanneer organisaties vooraf duidelijke kaders stellen, ontstaat een prettige werkomgeving voor medewerkers, bezoekers en dieren.</p>
 <h2>Waarom steeds meer bedrijven huisdieren toelaten</h2>
 <p>Werkgevers zoeken regelmatig manieren om een prettige werkomgeving te bieden. Een huisdiervriendelijk beleid sluit daar voor sommige organisaties goed op aan. Veel medewerkers ervaren meer werkplezier wanneer hun huisdier aanwezig is. Daardoor ontstaan vaak spontane gesprekken tussen collega's. Ook waarderen huisdiereigenaren het gemak van het meenemen van hun dier tijdens kantooruren.</p>

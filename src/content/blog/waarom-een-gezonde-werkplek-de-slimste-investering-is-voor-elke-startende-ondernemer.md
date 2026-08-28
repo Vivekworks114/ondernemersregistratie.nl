@@ -7,8 +7,9 @@ categories:
   - "Uncategorised"
 featuredImage: "/images/blog/featured-9.png"
 slug: "waarom-een-gezonde-werkplek-de-slimste-investering-is-voor-elke-startende-ondernemer"
+source: "wordpress"
+legacy: true
 ---
-
 <p>Als je net begint met je eigen zaak, gaan de eerste euro’s vaak naar zaken die direct zichtbaar zijn, zoals je inschrijving bij de Kamer van Koophandel of een strakke website. Maar heb je er weleens bij stilgestaan hoeveel uur je per week eigenlijk op die ene stoel aan de keukentafel of in je nieuwe kantoor doorbrengt? Voor je het weet zit je acht uur per dag in dezelfde houding te knallen om je doelen te bereiken. Een verkeerde zithouding is dan de grootste sluipmoordenaar voor je productiviteit; voor je het weet heb je last van je rug of nek en lig je er een paar dagen uit.</p>
 <h3>De balans tussen je budget en je gezondheid</h3>
 <p>Ondernemen is keuzes maken, zeker als het op je budget aankomt. Je wilt natuurlijk het beste materiaal, maar een gloednieuwe designstoel van duizend euro is vaak even een stap te ver. Gelukkig hoef je tegenwoordig niet meer te kiezen tussen een goedkope rammelbak of een fortuin uitgeven. De keuze voor <strong><a href="https://www.reyooz.nl/Bureaustoelen" target="_blank" rel="noopener">refurbished ergonomische bureaustoelen</a></strong> is voor veel zzp'ers en mkb-bedrijven de ideale middenweg. Je krijgt de topkwaliteit van A-merken die technisch weer helemaal als nieuw zijn gemaakt, maar dan voor een fractie van de nieuwprijs.</p>

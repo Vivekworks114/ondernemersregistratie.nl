@@ -7,8 +7,9 @@ categories:
   - "Uncategorised"
 featuredImage: "/images/content/2026/05/featured-3.jpg"
 slug: "hoe-je-meer-grip-krijgt-op-je-groei"
+source: "wordpress"
+legacy: true
 ---
-
 <p>Commerciële groei loopt niet altijd gelijk. De ene maand komen er genoeg aanvragen binnen. De maand erna blijft het opvallend stil. Dan ontstaat al snel de neiging om meer te posten, extra te adverteren of oude contacten opnieuw te benaderen.</p>
 <p>Dat kan iets opleveren, maar zonder duidelijke richting blijft groei afhankelijk van losse marketingacties. Meer doen helpt pas als je weet wie je doelgroep is, welk probleem je oplost en wanneer opvolging logisch is.</p>
 <h2>Groei begint met het maken van keuzes</h2>

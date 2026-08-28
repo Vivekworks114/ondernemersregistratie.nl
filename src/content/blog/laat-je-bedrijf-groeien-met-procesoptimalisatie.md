@@ -8,8 +8,9 @@ categories:
   - "Blog"
 featuredImage: "/images/content/2026/02/image-scaled-e1772019938750.png"
 slug: "laat-je-bedrijf-groeien-met-procesoptimalisatie"
+source: "wordpress"
+legacy: true
 ---
-
 <p>Als ondernemer ben je constant bezig met groei. Meer klanten, meer omzet, een groter marktaandeel. Maar kijk je ook kritisch naar hoe je dingen doet? Efficiëntie is vaak een ondergeschoven kindje, terwijl het juist de basis voor duurzame groei kan zijn. Gestroomlijnde processen zorgen niet alleen voor lagere kosten, maar ook voor tevreden klanten die graag terugkomen. En dat is waar een krachtige methode als Lean Six Sigma om de hoek komt kijken.</p>
 
 

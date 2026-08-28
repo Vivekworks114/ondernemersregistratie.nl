@@ -7,8 +7,9 @@ categories:
   - "Uncategorised"
 featuredImage: "/images/blog/featured-9.png"
 slug: "backoffice-uitbesteden-voor-je-flexbedrijf-wat-regel-je-nog-zelf-en-wat-niet"
+source: "wordpress"
+legacy: true
 ---
-
 <p>Als je een uitzend- of detacheringsbureau runt, kom je bedolven onder de administratie. Verloning, contracten, certificeringen, debiteurenbeheer, voorfinanciering, cao-toepassing, het lijkt allemaal kernactiviteit, maar dat is het niet.</p>
 <p>Steeds meer flexondernemers kiezen er daarom voor om dit deel te laten lopen door een gespecialiseerde partner. Maar wat besteed je dan precies uit, en wat blijft bij jou? Of je nu net een <a href="https://flexhub.nl/uitzendbureau-starten/" target="_blank" rel="noopener">uitzendbureau hebt opgericht</a> of al jaren onderneemt: de keuze om je <a href="https://flexhub.nl/backoffice-uitbesteden/" target="_blank" rel="noopener">backoffice uit te besteden</a> ligt vrijwel altijd op tafel.</p>
 <h2>Wat valt er onder de backoffice van een flexbedrijf?</h2>

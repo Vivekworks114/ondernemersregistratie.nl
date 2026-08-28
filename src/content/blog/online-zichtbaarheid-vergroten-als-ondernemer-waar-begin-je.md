@@ -7,8 +7,9 @@ categories:
   - "Uncategorised"
 featuredImage: "/images/blog/featured-10.png"
 slug: "online-zichtbaarheid-vergroten-als-ondernemer-waar-begin-je"
+source: "wordpress"
+legacy: true
 ---
-
 <p>Je hebt een goed product, een sterke dienstverlening en tevreden klanten. Maar als niemand je kan vinden online, mist je kansen. Voor veel ondernemers, zeker in het MKB, is online zichtbaarheid een van de grootste uitdagingen. De mogelijkheden zijn eindeloos, de platforms talrijk en de tijd beperkt. Waar begin je dan?</p>
 <h2>Waarom online aanwezigheid niet meer optioneel is</h2>
 <p>Het koopgedrag van consumenten is fundamenteel veranderd. Meer dan 90 procent van alle aankopen begint met een online zoekopdracht. Of het nu gaat om een lokale loodgieter, een restaurant of een zakelijke dienstverlener: potentiële klanten zoeken eerst online voordat ze contact opnemen. Als je daar niet zichtbaar bent, kiest de klant voor je concurrent.</p>

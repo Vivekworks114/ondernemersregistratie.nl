@@ -7,8 +7,9 @@ categories:
   - "Uncategorised"
 featuredImage: "/images/blog/featured-12.png"
 slug: "waarom-maatwerk-in-de-zorgsector-steeds-belangrijker-wordt"
+source: "wordpress"
+legacy: true
 ---
-
 <p>De zorgsector verandert snel. De vergrijzing neemt toe, zorgvragen worden complexer en steeds meer mensen willen langer zelfstandig blijven wonen. Tegelijkertijd staat de zorg onder druk door personeelstekorten en stijgende kosten. Daardoor groeit de behoefte aan oplossingen die beter aansluiten op de persoonlijke situatie van cliënten en zorgverleners. Waar vroeger vaak gekozen werd voor standaardoplossingen, verschuift de aandacht steeds meer naar maatwerk. Niet alleen binnen behandelingen en begeleiding, maar ook op het gebied van wonen, mobiliteit en zorgomgevingen. In deze blog lees je waarom maatwerk in de zorgsector steeds belangrijker wordt.</p>
 <h2>De zorgvraag verandert snel</h2>
 <p>Mensen blijven tegenwoordig langer thuis wonen, ook wanneer extra ondersteuning nodig is. Dat heeft voordelen, omdat veel ouderen graag in hun vertrouwde omgeving willen blijven. Tegelijkertijd betekent dit dat woningen en zorgvoorzieningen beter moeten aansluiten op individuele behoeften. De ene persoon heeft bijvoorbeeld behoefte aan extra bewegingsruimte of aangepaste sanitaire voorzieningen, terwijl iemand anders juist ondersteuning nodig heeft bij dagelijkse zorgmomenten. Daardoor werken standaardoplossingen steeds minder goed binnen de moderne zorgsector. Ook zorgorganisaties merken dat flexibiliteit belangrijker wordt. De praktijk laat namelijk zien dat iedere situatie anders is en dat maatwerk vaak zorgt voor mee comfort, zelfstandigheid en efficiëntie.</p>

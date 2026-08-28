@@ -8,8 +8,9 @@ categories:
   - "Uncategorised"
 featuredImage: "/images/blog/featured-8.png"
 slug: "kansen-in-rotterdam-om-bedrijfsruimte-en-wonen-te-combineren"
+source: "wordpress"
+legacy: true
 ---
-
 <p>Rotterdam is een stad vol kansen. Van creatieve hotspots tot moderne woonwijken — de Maasstad biedt unieke mogelijkheden om wonen en werken slim te combineren. Ook in Den Bosch groeit de vraag naar flexibele vastgoedoplossingen.</p>
 
 

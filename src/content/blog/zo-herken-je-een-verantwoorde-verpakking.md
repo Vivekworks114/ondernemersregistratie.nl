@@ -7,8 +7,9 @@ categories:
   - "Uncategorised"
 featuredImage: "/images/blog/featured-4.png"
 slug: "zo-herken-je-een-verantwoorde-verpakking"
+source: "wordpress"
+legacy: true
 ---
-
 <p>Verpakkingen zijn er in veel soorten en maten. Toch is niet elke verpakking even bewust gekozen. Een verpakking moet je product beschermen, maar ook passen bij het gebruik en de verwerking na afloop. Voor ondernemers wordt die keuze steeds belangrijker. In deze blog lees je waaraan je een verantwoorde verpakking herkent. Zo kun je beter beoordelen welke verpakking past bij jouw product en bedrijf.</p>
 <h2>Wat is een verantwoorde verpakking?</h2>
 <p>Een verantwoorde verpakking is een verpakking die goed aansluit op het product en het gebruik ervan. Ze beschermt de inhoud, zonder onnodig veel materiaal te gebruiken. Ook wordt rekening gehouden met afval, hergebruik, recycling en de manier waarop het materiaal is gemaakt. Daarbij gaat het niet alleen om duurzaamheid. Een verpakking moet ook praktisch blijven voor opslag, vervoer en de klant. Een doos, zak of folie kan dus pas verantwoord zijn als meerdere punten kloppen. Denk aan materiaalkeuze, formaat, stevigheid en verwerking na gebruik. Op die onderdelen gaan we verderop dieper in.</p>

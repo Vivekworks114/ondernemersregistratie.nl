@@ -8,8 +8,9 @@ categories:
   - "Uncategorised"
 featuredImage: "/images/content/2026/04/featured-25-scaled.jpg"
 slug: "van-terras-naar-omzetkans-zo-denk-je-als-ondernemer"
+source: "wordpress"
+legacy: true
 ---
-
 <p>Op een terras zie je meteen waar omzet ontstaat. Gasten maken vaak binnen enkele seconden een keuze. De één bestelt direct, terwijl de ander nog even blijft hangen in twijfel. Juist dat verschil zegt veel. Wie daar goed naar kijkt, ziet patronen die richting geven.</p>
 <p>Als ondernemer leer je kijken met een doel. Niet oppervlakkig, maar gericht. Je haalt signalen uit gedrag en vertaalt die naar kleine, gerichte aanpassingen. Zo voorkom je dat je beslissingen baseert op aannames. Wat iemand doet, vertelt uiteindelijk meer dan wat iemand zegt. En precies daar liggen kansen.</p>
 <h2>Van observatie naar inzicht</h2>

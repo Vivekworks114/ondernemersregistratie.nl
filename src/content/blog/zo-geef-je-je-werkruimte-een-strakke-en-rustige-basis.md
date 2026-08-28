@@ -7,8 +7,9 @@ categories:
   - "Uncategorised"
 featuredImage: "/images/content/2026/06/featured-6.png"
 slug: "zo-geef-je-je-werkruimte-een-strakke-en-rustige-basis"
+source: "wordpress"
+legacy: true
 ---
-
 <p>Een rustige werkruimte begint met bewuste keuzes. Een drukke inrichting leidt sneller af tijdens het werken. Daarom loont het om kritisch naar de basis van de ruimte te kijken. Een overzichtelijke indeling, rustige kleuren plus passende materialen zorgen voor meer samenhang. Ook de plaatsing van meubels speelt daarbij een belangrijke rol. Wanneer iedere functie een vaste plek krijgt, oogt de ruimte direct rustiger. Bovendien voelt een opgeruimde werkplek vaak prettiger aan tijdens lange werkdagen. Met enkele gerichte keuzes ontstaat een omgeving die overzicht uitstraalt zonder sfeer te verliezen.</p>
 <h2>Begin met een opgeruimde en doordachte indeling</h2>
 <p>Een strakke werkruimte ontstaat door een logische indeling. Kijk daarom eerst kritisch naar de beschikbare ruimte. Verwijder spullen die je nauwelijks gebruikt. Geef materialen vervolgens een vaste plek. Daardoor blijft het werkblad overzichtelijk tijdens drukke werkdagen. Houd daarnaast voldoende vrije ruimte rondom meubels. Zo ontstaat een open uitstraling die rust uitstraalt. Plaats grote meubels bij voorkeur langs wanden. Daardoor blijft de ruimte beter in balans.</p>

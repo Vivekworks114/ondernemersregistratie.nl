@@ -8,8 +8,9 @@ categories:
   - "Uncategorised"
 featuredImage: "/images/blog/featured-6.png"
 slug: "waar-nederlandse-hondenbaasjes-kwaliteitsproducten-kopen"
+source: "wordpress"
+legacy: true
 ---
-
 <p>Nederlandse hondenbaasjes worden steeds kritischer. Ze willen het beste voor hun hond en zijn bereid te investeren in kwaliteitsproducten. Maar waar vind je echt goede producten die veilig, effectief en betrouwbaar zijn voor je trouwe viervoeter?</p>
 <h2>Wat maakt een hondenproduct kwalitatief?</h2>
 <p>Op <a href="https://www.purepaws.nl/" target="_blank" rel="noopener">www.purepaws.nl</a> vind je producten die voldoen aan de hoogste kwaliteitsnormen voor hondenverzorging en supplementen. Kwalitatieve producten worden gemaakt van veilige ingrediënten, zijn wetenschappelijk onderbouwd en goed getest.</p>

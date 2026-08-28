@@ -8,8 +8,9 @@ categories:
   - "Blog"
 featuredImage: "/images/content/2026/02/shiftbase-5.webp"
 slug: "personeelsplanning-urenregistratie-in-de-horeca"
+source: "wordpress"
+legacy: true
 ---
-
 <p>De horeca is chaos en magie tegelijk. Op maandag is het rustig, op vrijdag staat je zaak ineens vol en iedereen wil tegelijk een cocktail. Zonder slimme planning en duidelijke urenregistratie wordt het al snel een rommeltje. Gelukkig kun je met de juiste aanpak rust creëren, zelfs tijdens de drukste spits.</p>
 
 

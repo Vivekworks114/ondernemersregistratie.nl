@@ -8,8 +8,9 @@ categories:
   - "Blog"
 featuredImage: "/images/blog/featured-3.png"
 slug: "complexe-projecten-de-baas-stoom-je-bedrijf-klaar-voor-groei"
+source: "wordpress"
+legacy: true
 ---
-
 <p>Als ondernemer ben je gewend om veel ballen in de lucht te houden. In het begin lukt dat vaak prima met een simpele to-dolijst en een flinke dosis energie. Maar wat als je bedrijf groeit? Projecten worden groter, er zijn meer mensen bij betrokken en de risico's nemen toe. Plotseling voelt die oude aanpak als zwemmen in stroop. De complexiteit groeit je boven het hoofd en je verliest het overzicht.</p>
 
 

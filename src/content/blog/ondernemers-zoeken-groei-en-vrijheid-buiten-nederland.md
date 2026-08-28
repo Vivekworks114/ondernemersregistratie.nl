@@ -8,8 +8,9 @@ categories:
   - "Blog"
 featuredImage: "/images/blog/featured-5.png"
 slug: "ondernemers-zoeken-groei-en-vrijheid-buiten-nederland"
+source: "wordpress"
+legacy: true
 ---
-
 <p>Droom je ervan om je onderneming internationaal te maken? Of je nu op zoek bent naar nieuwe markten, een andere levensstijl of gewoon een frisse blik op je bedrijf, internationaal ondernemen biedt volop kansen. Dit artikel informeert je over de mogelijkheden voor het starten of voortzetten van je bedrijf vanuit een ander land. We bespreken de voordelen, belangrijke aandachtspunten en hoe je je onderneming succesvol kunt internationaliseren.</p>
 
 

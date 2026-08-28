@@ -7,8 +7,9 @@ categories:
   - "Uncategorised"
 featuredImage: "/images/blog/featured-4.png"
 slug: "is-je-pand-klaar-voor-de-groei-van-je-bedrijf"
+source: "wordpress"
+legacy: true
 ---
-
 <p>Als ondernemer is groei vaak het doel waar je naartoe werkt. Meer omzet, meer klanten, misschien zelfs meer personeel. Maar groei brengt ook praktische uitdagingen met zich mee. Een van de grootste, en vaak onderschatte, uitdagingen is de fysieke ruimte van je bedrijf. Zit je nog wel op de juiste plek om je ambities waar te maken?</p>
 <p>Je kantoor, werkplaats of magazijn is meer dan alleen een adres op je factuur. Het is de plek waar je team samenkomt, waar je klanten ontvangt en waar de basis wordt gelegd voor je succes. Een te kleine of onhandige ruimte kan je groei ongemerkt afremmen. Het is dus belangrijk om je bedrijfsruimte te zien als een investering in je toekomst.</p>
 <h2>Een echte groeimotor</h2>

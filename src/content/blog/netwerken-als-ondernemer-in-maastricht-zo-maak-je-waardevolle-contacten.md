@@ -7,8 +7,9 @@ categories:
   - "Uncategorised"
 featuredImage: "/images/blog/featured-12.png"
 slug: "netwerken-als-ondernemer-in-maastricht-zo-maak-je-waardevolle-contacten"
+source: "wordpress"
+legacy: true
 ---
-
 <p>Voor ondernemers in Maastricht ontstaan waardevolle contacten vaak buiten de eigen werkplek. Een gesprek tijdens een bijeenkomst, lunch of diner kan leiden tot nieuwe klanten, samenwerkingen of ideeën. Toch werkt netwerken pas goed wanneer je weet waar je moet beginnen. Het gaat niet alleen om aanwezig zijn, maar vooral om contact maken met mensen die bij jouw bedrijf passen.</p>
 <p>In deze blog lees je waarom netwerken waardevol is en hoe je je goed voorbereidt op een gesprek. Daarnaast bespreken we verschillende manieren om als ondernemer nieuwe contacten te leggen. Aan het einde vind je een overzicht van restaurants in Maastricht waar samen eten helpt om zakelijke gesprekken laagdrempelig te maken.</p>
 <h2>Waarom netwerken zo waardevol is voor ondernemers</h2>

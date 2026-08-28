@@ -7,8 +7,9 @@ categories:
   - "Uncategorised"
 featuredImage: "/images/blog/featured-5.png"
 slug: "waarom-facilitaire-keuzes-invloed-hebben-op-je-bedrijfsimago-2"
+source: "wordpress"
+legacy: true
 ---
-
 <p>Een bedrijf communiceert voortdurend, ook wanneer niemand aan het woord is. De inrichting van een kantoor, de kwaliteit van de koffie bij binnenkomst, de manier waarop een vergaderruimte is ingericht en de lunch die wordt aangeboden aan een bezoekende klant: al die elementen vormen samen een indruk die moeilijk te corrigeren is met woorden achteraf. Facilitaire keuzes zijn in die zin merkcommunicatie zonder campagnebudget.</p>
 <h2>Wat bezoekers zien als ze binnenlopen</h2>
 <p>De eerste minuten in een kantoor vormen een beeld dat lang blijft hangen. Bezoekers registreren de staat van het gebouw, de ontvangst bij de balie en de faciliteiten die hen worden aangeboden voordat het eerste inhoudelijke gesprek heeft plaatsgevonden. Dat beeld kleurt onbewust de gesprekken die daarna volgen.</p>

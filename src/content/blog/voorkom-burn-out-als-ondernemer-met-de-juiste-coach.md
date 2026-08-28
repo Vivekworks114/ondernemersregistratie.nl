@@ -8,8 +8,9 @@ categories:
   - "Uncategorised"
 featuredImage: "/images/blog/featured-8.png"
 slug: "voorkom-burn-out-als-ondernemer-met-de-juiste-coach"
+source: "wordpress"
+legacy: true
 ---
-
 <p>Ondernemerschap brengt vrijheid, maar ook druk. Lange dagen, eindeloze verantwoordelijkheden en de constante noodzaak om resultaten te leveren vragen veel van je. Zonder de juiste balans loop je het risico op een burn-out. Een gespecialiseerde coach helpt je dit te voorkomen.</p>
 <h2>Burn-out bij ondernemers: een groeiend probleem</h2>
 <p>Een <a href="https://danielarussocoaching.nl/burnout-coach/" target="_blank" rel="noopener">Burnout coach</a> begrijpt de unieke uitdagingen van het ondernemerschap. Ondernemers hebben geen manager die hen beschermt of een HR-afdeling die ingrijpt. Ze moeten zelf de signalen herkennen en actie ondernemen voordat het te laat is.</p>

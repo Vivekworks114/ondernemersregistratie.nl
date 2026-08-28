@@ -8,8 +8,9 @@ categories:
   - "Blog"
 featuredImage: "/images/content/2026/06/image.png"
 slug: "bedrijfsauto-voor-personeel-regels-kosten-en-verantwoordelijkheden"
+source: "wordpress"
+legacy: true
 ---
-
 <p>Een bedrijfsauto is handig voor medewerkers die vaak onderweg zijn. Denk aan afspraken met klanten, projectbezoeken of leveringen. Voor werkgevers horen daar duidelijke regels bij. De auto kost geld, heeft fiscale gevolgen en brengt verantwoordelijkheden met zich mee. Daarom is een goed autobeleid belangrijk voor iedere organisatie met bedrijfsauto’s. Zonder duidelijke afspraken ontstaan snel misverstanden. Mag de auto privé worden gereden? Wie betaalt een boete? Wat gebeurt er bij schade? Door deze onderwerpen vooraf vast te leggen, weten werkgever en werknemer waar zij aan toe zijn. Dat voorkomt onduidelijkheid en onnodige kosten. We vertellen je er graag meer over.</p>
 
 

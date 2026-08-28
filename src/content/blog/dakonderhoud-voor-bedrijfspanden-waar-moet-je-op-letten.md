@@ -7,8 +7,9 @@ categories:
   - "Uncategorised"
 featuredImage: "/images/content/2026/06/featured-12.png"
 slug: "dakonderhoud-voor-bedrijfspanden-waar-moet-je-op-letten"
+source: "wordpress"
+legacy: true
 ---
-
 <p>Bedrijfsdaken krijgen dagelijks te maken met regen, wind, temperatuurwisselingen plus vervuiling. Daardoor ontstaan na verloop van tijd slijtageplekken, scheuren of verstoppingen. Zonder regelmatige controle kunnen kleine gebreken uitgroeien tot lekkages of schade aan het pand. Dat leidt vaak tot onverwachte kosten of verstoring van bedrijfsactiviteiten. Daarom helpt een vaste onderhoudsaanpak om problemen eerder te signaleren. Bovendien blijft de kans op grotere herstelwerkzaamheden kleiner. Regelmatige aandacht draagt daarnaast bij aan een langere levensduur van het dak. Zo behoud je beter overzicht op toekomstige onderhoudskosten.</p>
 <h2>Waarom periodieke dakinspecties nodig zijn</h2>
 <p>Met een periodieke dakinspectie ontdek je gebreken voordat ze zichtbare schade veroorzaken. Daardoor kun je sneller ingrijpen wanneer onderdelen slijten of beschadigd raken. Tijdens een controle wordt gekeken naar de algemene staat van het dak. Ook afvoeren, naden, aansluitingen plus dakranden verdienen aandacht. Vervolgens ontstaat een duidelijk beeld van de conditie van het dakoppervlak. Dat helpt bij het plannen van onderhoud op een geschikt moment.</p>

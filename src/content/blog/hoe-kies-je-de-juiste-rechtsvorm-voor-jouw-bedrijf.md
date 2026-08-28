@@ -7,8 +7,9 @@ categories:
   - "Uncategorised"
 featuredImage: "/images/blog/featured-3.png"
 slug: "hoe-kies-je-de-juiste-rechtsvorm-voor-jouw-bedrijf"
+source: "wordpress"
+legacy: true
 ---
-
 <p>Wanneer je een eigen bedrijf start, moet je een belangrijke keuze maken: welke rechtsvorm past het beste bij jouw onderneming? De rechtsvorm bepaalt namelijk hoe je belasting betaalt, hoeveel risico je privé loopt en hoe jouw bedrijf juridisch is geregeld. Veel starters kiezen zonder goed onderzoek voor een eenmanszaak, terwijl een andere rechtsvorm soms beter aansluit bij hun plannen of risico’s. Volgens de Kamer van Koophandel heeft keuze voor een rechtsvorm vooral invloed op aansprakelijkheid, belastingverplichtingen en de manier waarop je onderneming georganiseerd wordt. Daarom is het slim om vooraf goed te kijken naar jouw situatie, toekomstplannen en financiële verwachtingen.</p>
 <h2>Waarom de rechtsvorm zo belangrijk is</h2>
 <p>De rechtsvorm bepaalt hoe jouw onderneming officieel geregistreerd staat bij de Kamer van Koophandel. Daarnaast beïnvloedt deze keuze onder andere:</p>

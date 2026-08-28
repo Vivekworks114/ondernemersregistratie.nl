@@ -8,8 +8,9 @@ categories:
   - "Uncategorised"
 featuredImage: "/images/content/2026/04/featured-21-scaled.jpg"
 slug: "de-eerste-dingen-om-te-regelen-na-een-overlijden-op-een-rij"
+source: "wordpress"
+legacy: true
 ---
-
 <p>Een overlijden brengt direct veel regelwerk met zich mee. Je krijgt te maken met emoties en praktische taken die snel aandacht vragen, waardoor onduidelijkheid kan ontstaan over wat eerst moet gebeuren. Tegelijk wil je voorkomen dat belangrijke zaken blijven liggen. Daarom helpt een duidelijk overzicht van de eerste stappen.</p>
 <p>Je weet zo waar je moet beginnen en houdt meer rust in deze periode. Bovendien voorkom je fouten die later problemen kunnen veroorzaken. Denk aan het inschakelen van een arts, het informeren van naasten en het starten van de eerste regelzaken. Vervolgens kun je stap voor stap verder kijken naar wat nodig is. Zo houd je grip op de situatie, ook wanneer alles overweldigend voelt.</p>
 <h2>Direct na het overlijden: wat moet je als eerste doen?</h2>

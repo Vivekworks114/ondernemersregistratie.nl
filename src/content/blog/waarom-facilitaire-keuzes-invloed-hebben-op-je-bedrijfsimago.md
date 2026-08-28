@@ -8,8 +8,9 @@ categories:
   - "Blog"
 featuredImage: "/images/blog/featured-1.png"
 slug: "waarom-facilitaire-keuzes-invloed-hebben-op-je-bedrijfsimago"
+source: "wordpress"
+legacy: true
 ---
-
 <p>Een bedrijfsimago ontstaat niet alleen door je logo, website of reclame, maar juist door de dagelijkse dingen die mensen ervaren wanneer ze met je bedrijf te maken krijgen. Facilitaire keuzes spelen daarin een grotere rol dan veel mensen denken. Alles wat mensen zien, ruiken, proeven en voelen bepaalt hoe professioneel je overkomt.</p>
 
 

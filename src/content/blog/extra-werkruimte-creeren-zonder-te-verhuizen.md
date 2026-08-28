@@ -7,8 +7,9 @@ categories:
   - "Uncategorised"
 featuredImage: "/images/blog/featured-3.png"
 slug: "extra-werkruimte-creeren-zonder-te-verhuizen"
+source: "wordpress"
+legacy: true
 ---
-
 <p>Thuiswerken is voor veel mensen normaal geworden. Toch is niet iedere woning daarop ingericht. De keukentafel werkt soms prima voor een paar uurtjes, maar niet voor hele werkdagen. Helaas is een aparte kamer niet altijd beschikbaar en verhuizen is vaak een grote stap. Gelukkig kun je op verschillende manieren extra werkruimte creëren in en rond je woning. Met slimme keuzes maak je meer plek, zonder dat je direct naar een groter huis hoeft te zoeken. Lees snel verder!</p>
 <h2>Waarom extra werkruimte zoveel verschil maakt</h2>
 <p>Een goede werkplek heeft invloed op je werkdag én op je woning. Wanneer je steeds aan de eettafel werkt, lopen werk en privé snel door elkaar. Je laptop ligt in het zicht, papieren blijven slingeren en na werktijd voelt je huis minder rustig. Daarnaast is het verleidelijk om nog ‘even’ door te gaan, waardoor je uiteindelijk te veel uren maakt. Een vaste werkplek helpt dan ook om meer structuur aan je dag te geven. Daarbij hoeft extra werkruimte niet groot te zijn. Een compacte plek kan al genoeg zijn als deze goed is ingericht. Denk aan voldoende licht, een fijne stoel en genoeg ruimte voor je scherm of laptop. Ook de plek in huis maakt verschil. Een hoek naast een looproute werkt vaak minder goed dan een rustige plek met weinig afleiding.</p>

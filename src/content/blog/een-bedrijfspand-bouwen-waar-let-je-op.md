@@ -7,8 +7,9 @@ categories:
   - "Uncategorised"
 featuredImage: "/images/blog/featured-2.png"
 slug: "een-bedrijfspand-bouwen-waar-let-je-op"
+source: "wordpress"
+legacy: true
 ---
-
 <p>Een bedrijfspand bouwen is een grote stap voor iedere ondernemer. Er komen veel keuzes bij kijken. Denk aan de functie van het pand, de locatie, de indeling en het toekomstige gebruik. Door vooraf goed na te denken, voorkom je problemen tijdens en na de bouw. Een pand moet namelijk niet alleen passen bij je bedrijf van nu. Het moet ook meegroeien met je plannen voor later. In deze blog lees je waar je op let bij het bouwen van een bedrijfspand.</p>
 <h2>Bepaal welke functies het pand moet hebben</h2>
 <p>Voordat je een bedrijfspand laat bouwen, moet duidelijk zijn waarvoor je het gaat gebruiken. Een kantoorpand vraagt om andere keuzes dan een magazijn, showroom of productieruimte. Denk daarom eerst goed na over de dagelijkse werkzaamheden binnen je bedrijf. Kijk naar de ruimtes die je nu nodig hebt. Denk aan werkplekken, opslagruimte, vergaderruimtes, ontvangstruimtes en technische ruimtes. Heb je regelmatig klanten over de vloer? Dan is een nette entree of showroom misschien nodig. Werk je vooral met voorraad of machines? Dan vraagt het pand om voldoende ruimte en goede bereikbaarheid voor alle medewerkers. Het <a href="/is-je-pand-klaar-voor-de-groei-van-je-bedrijf/" target="_blank" rel="noopener">pand</a> moet prettig en praktisch zijn voor de mensen die er dagelijks werken. Denk aan vrije looproutes, voldoende pauzeruimtes, toiletten en voldoende daglicht. Zulke keuzes lijken klein, maar maken veel verschil in het dagelijks gebruik.</p>

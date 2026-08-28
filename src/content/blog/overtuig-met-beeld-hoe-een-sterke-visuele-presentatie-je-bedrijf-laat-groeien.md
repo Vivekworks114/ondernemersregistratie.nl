@@ -8,8 +8,9 @@ categories:
   - "Blog"
 featuredImage: "/images/content/2025/04/image36.png"
 slug: "overtuig-met-beeld-hoe-een-sterke-visuele-presentatie-je-bedrijf-laat-groeien"
+source: "wordpress"
+legacy: true
 ---
-
 <p>Als ondernemer weet je hoe belangrijk het is om een goed verhaal te hebben. Of je nu een nieuwe klant probeert te overtuigen, een investeerder zoekt voor je groeiplannen, of je eigen team motiveert, je woorden zijn je belangrijkste gereedschap. Maar in de huidige snelle wereld is wat mensen zien vaak net zo belangrijk als wat ze horen. Een krachtige visuele presentatie kan het verschil betekenen tussen een gemiste kans en een gesloten deal.</p>
 
 

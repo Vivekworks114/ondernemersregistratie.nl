@@ -8,8 +8,9 @@ categories:
   - "Uncategorised"
 featuredImage: "/images/content/2026/04/featured-28-scaled.jpg"
 slug: "welke-verantwoordelijkheden-heeft-een-aangewezen-mentor"
+source: "wordpress"
+legacy: true
 ---
-
 <p>Een aangewezen mentor begeleidt iemand tijdens een leer- of werktraject. Je ondersteunt ontwikkeling met duidelijke afspraken en helpt bij het stellen van doelen die passen bij de situatie. Daarnaast stimuleer je reflectie op gedrag en gemaakte keuzes. Je bewaakt de voortgang met regelmatige gesprekken en geeft tegelijk ruimte voor eigen initiatief.</p>
 <p>Je rol vraagt om betrokkenheid zonder de regie over te nemen. Door verwachtingen vroegtijdig af te stemmen, voorkom je onduidelijkheid. Je houdt overzicht in het traject en past je aanpak aan per fase. Soms stuur je meer, daarna laat je los. Zo ontstaat een werkbare balans waarin de mentee zich stap voor stap ontwikkelt en jij richting biedt waar nodig.</p>
 <h2>Structuur bieden en voortgang bewaken</h2>

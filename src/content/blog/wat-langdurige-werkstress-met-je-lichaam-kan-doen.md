@@ -7,8 +7,9 @@ categories:
   - "Uncategorised"
 featuredImage: "/images/content/2026/06/featured-8.png"
 slug: "wat-langdurige-werkstress-met-je-lichaam-kan-doen"
+source: "wordpress"
+legacy: true
 ---
-
 <p>Langdurige werkstress beïnvloedt niet alleen je gedachten, maar ook je lichaam. Wanneer spanning weken of maanden aanhoudt, raakt het natuurlijke herstelproces verstoord. Daardoor kun je vermoeid wakker worden, vaker hoofdpijn ervaren of minder energie hebben tijdens de dag. Ook concentratieproblemen komen regelmatig voor. Veel mensen herkennen deze signalen pas wanneer klachten zich opstapelen. Intussen blijft je lichaam energie gebruiken om alert te blijven. Dat kan invloed hebben op slaap, spieren, weerstand plus andere lichamelijke processen.</p>
 <h2>Hoe het lichaam reageert op langdurige stress</h2>
 <p>Bij stress maakt je lichaam hormonen aan die je voorbereiden op actie. Op korte termijn helpt dat om alert te reageren. Wanneer werkdruk langdurig hoog blijft, blijft dit systeem actief. Daardoor krijgt je lichaam minder ruimte voor herstel. Je hartslag kan hoger blijven. Ook spieren houden vaker spanning vast. Tegelijk gebruikt je lichaam meer energie om alert te blijven. Daardoor voel je je sneller moe.</p>

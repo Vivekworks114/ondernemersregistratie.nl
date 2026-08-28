@@ -8,8 +8,9 @@ categories:
   - "Blog"
 featuredImage: "/images/blog/featured-6.png"
 slug: "hoe-blijf-je-gemotiveerd-om-te-sporten-in-de-winter"
+source: "wordpress"
+legacy: true
 ---
-
 <p>In januari zijn de sportscholen vol. In maart zijn ze leeg. Dat patroon herhaalt zich elk jaar en het heeft weinig te maken met goede of slechte voornemens. Het heeft te maken met hoe de hersenen omgaan met kou, duisternis en het gebrek aan externe prikkels die in de zomer vanzelf komen. Wie dat mechanisme begrijpt, kan er gericht op inspelen.</p>
 
 

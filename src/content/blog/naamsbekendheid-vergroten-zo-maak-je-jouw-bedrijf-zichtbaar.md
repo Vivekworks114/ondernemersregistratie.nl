@@ -7,8 +7,9 @@ categories:
   - "Uncategorised"
 featuredImage: "/images/blog/featured-1.png"
 slug: "naamsbekendheid-vergroten-zo-maak-je-jouw-bedrijf-zichtbaar"
+source: "wordpress"
+legacy: true
 ---
-
 <p>Als ondernemer wil je dat mensen jouw bedrijf herkennen. Niet pas wanneer ze op je website staan, maar al eerder. Naamsbekendheid helpt daarbij. Hoe vaker mensen jouw naam zien, hoe sneller jouw bedrijf blijft hangen. Dat kan via online kanalen, maar ook via reclame in de buurt. Toch draait zichtbaarheid niet alleen om zoveel mogelijk aanwezig zijn. Je bedrijf moet ook herkenbaar en betrouwbaar overkomen. In deze blog lees je hoe je jouw naamsbekendheid vergroot. Ook ontdek je hoe online en offline reclame elkaar kunnen versterken.</p>
 <h2>Waarom naamsbekendheid belangrijk is voor je bedrijf</h2>
 <p>Naamsbekendheid bepaalt hoe snel mensen jouw bedrijf herkennen. Wie jouw naam vaker ziet, denkt eerder aan jouw aanbod. Dat gebeurt niet altijd bewust. Toch kan herkenning veel verschil maken wanneer iemand een keuze moet maken. Klanten kiezen vaak sneller voor een bedrijf dat vertrouwd voelt. Ze hebben de naam eerder gezien op social media, in Google of in de buurt. Daardoor voelt de stap om contact op te nemen kleiner. Een onbekend bedrijf moet meestal eerst meer vertrouwen opbouwen.</p>

@@ -7,8 +7,9 @@ categories:
   - "Uncategorised"
 featuredImage: "/images/blog/featured-13.png"
 slug: "slim-ondernemen-in-een-tijd-van-dynamische-energiemarkten"
+source: "wordpress"
+legacy: true
 ---
-
 <p>Als ondernemer ben je gewend om risico’s te managen en kansen te grijpen waar anderen ze laten liggen. Toch is er één kostenpost die de afgelopen jaren voor veel hoofdbrekens heeft gezorgd: de energierekening. Waar je vroeger jarenlang hetzelfde tarief betaalde, heb je nu te maken met <strong><a href="https://energyhouse.nl/informatie/actueel/waarom-energieprijzen-steeds-vaker-schommelen" target="_blank" rel="noopener">energieprijzen die schommelen</a></strong> op basis van het weer, de geopolitiek en de vulgraad van gasopslagen. Dit vraagt om een nieuwe manier van kijken naar je inkoopstrategie. Het simpelweg accepteren van een vast, hoog tarief uit angst voor onzekerheid is niet langer de enige, en vaak ook niet de slimste weg naar een gezonde bedrijfsvoering.</p>
 <h3>De verschuiving van vaste lasten naar slimme kansen</h3>
 <p>De traditionele energiemarkt met meerjarige vaste contracten is aan het veranderen. Door de enorme toename van zonne- en windenergie op het net ontstaan er grote prijsverschillen gedurende de dag. Wanneer de zon volop schijnt of het hard waait, zakken de prijzen op de spotmarkt soms zelfs tot onder nul. Als je dan een vast contract hebt, profiteer je daar niet van. Sterker nog, je betaalt mee aan de risicomarge die leveranciers inbouwen om die schommelingen op te vangen. Voor veel bedrijven is <strong><a href="https://energyhouse.nl/informatie/actueel/hoe-stapt-u-als-bedrijf-over-naar-dynamische-energie/" target="_blank" rel="noopener">overstappen naar dynamische energie in de praktijk</a></strong> daarom een interessante manier om de energiekosten direct te koppelen aan de actuele marktprijs en zo je overhead te verlagen.</p>

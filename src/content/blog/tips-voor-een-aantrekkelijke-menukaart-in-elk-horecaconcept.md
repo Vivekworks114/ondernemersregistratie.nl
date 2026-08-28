@@ -8,8 +8,9 @@ categories:
   - "Uncategorised"
 featuredImage: "/images/content/2026/04/featured-20-scaled.jpg"
 slug: "tips-voor-een-aantrekkelijke-menukaart-in-elk-horecaconcept"
+source: "wordpress"
+legacy: true
 ---
-
 <p>Een menukaart bepaalt hoe gasten jouw aanbod ervaren zodra zij plaatsnemen. De opbouw stuurt hun keuzes, terwijl de vormgeving direct de sfeer neerzet. Daarom vraagt elke horecazaak om een kaart die aansluit op het concept. Een rommelige kaart leidt tot twijfel, terwijl een duidelijke indeling juist richting geeft.</p>
 <p>Bovendien helpt een heldere structuur gasten om gerechten sneller te vinden, wat het bestelproces versnelt. Tegelijk verhoogt dit de tevredenheid aan tafel. Korte beschrijvingen maken keuzes eenvoudiger en zorgen voor overzicht. Consistente vormgeving draagt bij aan herkenning, waarbij kleuren, taalgebruik en opbouw goed op elkaar aansluiten. Zo ontstaat rust tijdens het kiezen en stimuleer je hogere bestellingen per tafel.</p>
 <h2>Stem de menukaart af op je horecaconcept</h2>

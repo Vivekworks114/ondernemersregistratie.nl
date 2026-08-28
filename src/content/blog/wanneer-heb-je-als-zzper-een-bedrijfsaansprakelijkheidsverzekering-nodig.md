@@ -8,8 +8,9 @@ categories:
   - "Blog"
 featuredImage: "/images/content/2026/02/Bedrijfsaansprakelijkheidsverzekering.jpg"
 slug: "wanneer-heb-je-als-zzper-een-bedrijfsaansprakelijkheidsverzekering-nodig"
+source: "wordpress"
+legacy: true
 ---
-
 <p>Als zzp’er ben je lekker je eigen baas, maar dat betekent ook dat je zelf de klappen opvangt als er iets misgaat. Een foutje zit in een klein hoekje, en voor je het weet ben je aansprakelijk. Geen stress, met de juiste verzekering slaap je een stuk rustiger.</p>
 
 

@@ -8,8 +8,9 @@ categories:
   - "Blog"
 featuredImage: "/images/content/2026/02/pexels-olly-3779713-1.jpg"
 slug: "de-rol-van-tandtechniek-binnen-een-moderne-tandartspraktijk"
+source: "wordpress"
+legacy: true
 ---
-
 <p>Een moderne tandartspraktijk is allang niet meer alleen een stoel, een lamp en een spiegel. Achter de schermen gebeurt er van alles wat je misschien niet ziet, maar wel direct merkt aan het resultaat. Tandtechniek speelt daarin een hoofdrol. Van slimme technologie tot maatwerkoplossingen: dit is waar vakmanschap en innovatie elkaar high-fiven.</p>
 
 

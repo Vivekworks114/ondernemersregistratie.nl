@@ -1,0 +1,18 @@
+/*
+ * Keep HTML fresh after deploy — production CDN was serving stale article listings.
+ */
+/
+  Cache-Control: no-store
+  CDN-Cache-Control: no-store
+
+/blog/*
+  Cache-Control: no-store
+  CDN-Cache-Control: no-store
+
+/updates/*
+  Cache-Control: no-store
+  CDN-Cache-Control: no-store
+
+/updates
+  Cache-Control: no-store
+  CDN-Cache-Control: no-store

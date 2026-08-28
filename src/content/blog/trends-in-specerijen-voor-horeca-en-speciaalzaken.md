@@ -7,8 +7,9 @@ categories:
   - "Uncategorised"
 featuredImage: "/images/content/2026/06/featured-9.png"
 slug: "trends-in-specerijen-voor-horeca-en-speciaalzaken"
+source: "wordpress"
+legacy: true
 ---
-
 <p>De vraag naar specerijen verandert binnen horeca en speciaalzaken. Consumenten zoeken vaker nieuwe smaken met een herkenbare oorsprong. Daardoor groeit de aandacht voor authentieke producten, bijzondere kruiden plus internationale invloeden. Ook herkomst speelt een grotere rol tijdens aankoopkeuzes. Horecaondernemers passen hun menu hierop aan. Speciaalzaken breiden hun assortiment uit met nieuwe smaakmakers. Tegelijk zorgen sociale media voor een snelle verspreiding van culinaire trends. Hierdoor ontstaan kansen voor ondernemers die inspelen op veranderende voorkeuren.</p>
 <h2>Toenemende vraag naar authentieke smaakprofielen</h2>
 <p>Authentieke smaakprofielen krijgen meer aandacht binnen horeca plus speciaalzaken. Consumenten zoeken gerechten die verbonden zijn met een specifieke regio of keuken. Daardoor groeit de vraag naar specerijen die traditionele smaken ondersteunen. Koks gebruiken vaker kruiden uit Noord-Afrika, het Midden-Oosten plus Zuidoost-Azië. Zo ontstaat een herkenbare smaakbeleving die aansluit bij de oorsprong van een gerecht.</p>

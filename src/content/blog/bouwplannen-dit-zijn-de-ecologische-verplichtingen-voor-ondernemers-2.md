@@ -7,8 +7,9 @@ categories:
   - "Uncategorised"
 featuredImage: "/images/blog/featured-6.png"
 slug: "bouwplannen-dit-zijn-de-ecologische-verplichtingen-voor-ondernemers-2"
+source: "wordpress"
+legacy: true
 ---
-
 <p>Als ondernemer met bouwplannen kom je vroeg of laat de Wet natuurbescherming tegen. Die wet beschermt planten en dieren, en legt verplichtingen op aan iedereen die bouwt, sloopt of renoveert. Hier is een overzicht van wat je als ondernemer moet weten en regelen.</p>
 <h2>Waarom ondernemers ecologische verplichtingen hebben</h2>
 <p>De Wet natuurbescherming geldt voor iedereen: van kleine aannemer tot grote projectontwikkelaar. Je bent zelf verantwoordelijk voor naleving, ook als je een aannemer inhuurt. Meer informatie en professioneel advies vind je op <strong><a href="https://gaia-ecologie.nl/" target="_blank" rel="noopener">http://gaia-ecologie.nl/</a></strong> voor ondersteuning bij jouw specifieke project.</p>

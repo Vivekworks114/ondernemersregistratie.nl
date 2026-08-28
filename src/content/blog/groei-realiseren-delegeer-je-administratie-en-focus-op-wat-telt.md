@@ -7,8 +7,9 @@ categories:
   - "Uncategorised"
 featuredImage: "/images/blog/featured-6.png"
 slug: "groei-realiseren-delegeer-je-administratie-en-focus-op-wat-telt"
+source: "wordpress"
+legacy: true
 ---
-
 <p>Als ondernemer ben je gewend om veel ballen in de lucht te houden. Je bent de strateeg, de verkoper, de marketeer en vaak ook de administrateur. In het begin werkt dat prima, maar naarmate je bedrijf groeit, wordt die hands-on mentaliteit een rem. Je agenda slibt dicht met taken die belangrijk zijn, maar niet direct bijdragen aan de groei van je onderneming. Herkenbaar?</p>
 <p>Dan is het tijd om een van de belangrijkste stappen te zetten in je ondernemersreis: leren delegeren. Het inschakelen van administratieve ondersteuning is geen teken van zwakte, maar juist een krachtig signaal van groei en ambitie.</p>
 <h2>De onvermijdelijke groeipijn van elke ondernemer</h2>

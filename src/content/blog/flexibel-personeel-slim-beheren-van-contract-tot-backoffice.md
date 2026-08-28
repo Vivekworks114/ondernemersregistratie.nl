@@ -8,8 +8,9 @@ categories:
   - "Blog"
 featuredImage: "/images/content/2025/04/unsplash_eZFPIyjJQxM6.png"
 slug: "flexibel-personeel-slim-beheren-van-contract-tot-backoffice"
+source: "wordpress"
+legacy: true
 ---
-
 <p>Als ondernemer weet je hoe belangrijk wendbaarheid is. De markt verandert continu en de mogelijkheid om snel op en af te schalen met personeel kan het verschil maken tussen groei en stilstand. Flexibele arbeid, bijvoorbeeld via een uitzendbureau, biedt die gewenste flexibiliteit. Maar met die vrijheid komen ook verantwoordelijkheden. Een goed beheer van je flexibele schil is onmisbaar voor duurzaam succes.</p>
 
 

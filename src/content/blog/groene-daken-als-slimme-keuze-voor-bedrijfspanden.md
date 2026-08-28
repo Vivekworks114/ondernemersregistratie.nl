@@ -7,8 +7,9 @@ categories:
   - "Uncategorised"
 featuredImage: "/images/content/2026/06/featured-13.png"
 slug: "groene-daken-als-slimme-keuze-voor-bedrijfspanden"
+source: "wordpress"
+legacy: true
 ---
-
 <p>Een groen dak biedt bedrijven een praktische manier om duurzaamheid te combineren met functioneel vastgoedbeheer. De vegetatielaag helpt bij wateropvang, beperkt opwarming van het dakoppervlak en beschermt de dakconstructie tegen weersinvloeden. Daardoor groeit de belangstelling voor groene daken bij ondernemers die hun pand beter willen voorbereiden op veranderende omstandigheden. Ook subsidies en toenemende aandacht voor klimaatadaptatie spelen hierbij een rol. Voor veel bedrijfspanden vormt een groen dak daarom een interessante aanvulling op bestaande <a href="/bedrijfspand-verduurzamen-waar-begin-je/" target="_blank" rel="noopener">duurzaamheidsmaatregelen</a>.</p>
 <h2>Waarom groene daken steeds vaker op bedrijfspanden verschijnen</h2>
 <p>Steeds meer bedrijven zoeken naar manieren om hun vastgoed beter te laten aansluiten op actuele uitdagingen. Klimaatverandering zorgt voor hevigere regenbuien en langere warme periodes. Daardoor groeit de behoefte aan oplossingen die meerdere functies combineren. Een groen dak sluit hier goed op aan. De vegetatielaag houdt regenwater tijdelijk vast, waardoor het riool minder snel wordt belast. Daarnaast beperkt begroeiing de opwarming van het dakoppervlak tijdens zonnige dagen. Dat draagt bij aan een stabielere situatie rondom het gebouw.</p>

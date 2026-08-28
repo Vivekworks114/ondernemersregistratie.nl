@@ -8,8 +8,9 @@ categories:
   - "Uncategorised"
 featuredImage: "/images/blog/featured-10.png"
 slug: "waarom-steeds-meer-werkgevers-nadenken-over-een-collectieve-ongevallenverzekering"
+source: "wordpress"
+legacy: true
 ---
-
 <p>Goede zorg voor je personeel gaat veel verder dan alleen het maandelijkse salarisstrookje. Medewerkers willen zich gewaardeerd en vooral veilig voelen binnen een organisatie, zowel tijdens de uren op de werkvloer als daarbuiten. Steeds meer werkgevers kiezen er daarom voor om hun team extra zekerheid en een betrouwbaar financieel vangnet te bieden.Deze groeiende behoefte aan extra bescherming verklaart waarom de collectieve dekking momenteel hoog op de zakelijke agenda staat.</p>
 
 

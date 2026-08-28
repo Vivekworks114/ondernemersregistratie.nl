@@ -7,8 +7,9 @@ categories:
   - "Uncategorised"
 featuredImage: "/images/blog/featured-10.png"
 slug: "5-tips-voor-zzpers-om-meer-zekerheid-over-hun-inkomsten-te-krijgen"
+source: "wordpress"
+legacy: true
 ---
-
 <p>Een van de uitdagingen van het ondernemerschap is de onzekerheid over inkomsten. Waar werknemers vaak kunnen rekenen op een vast salaris, hebben zzp'ers te maken met wisselende opdrachten, betaaltermijnen en soms zelfs wanbetalers. Gelukkig zijn er verschillende manieren om meer financiële stabiliteit te creëren. In dit artikel staan vijf praktische tips.</p>
 <h2>Maak gebruik van factoring voor zzp'ers</h2>
 <p>Veel zelfstandigen herkennen het volgende probleem. De werkzaamheden zijn afgerond, de factuur is verstuurd, maar de betaling laat weken of zelfs maanden op zich wachten. Dit kan zorgen voor liquiditeitsproblemen, vooral wanneer vaste kosten gewoon doorlopen.</p>

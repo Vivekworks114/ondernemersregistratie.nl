@@ -8,8 +8,9 @@ categories:
   - "Uncategorised"
 featuredImage: "/images/blog/featured-6.png"
 slug: "hoe-kies-je-een-kantoor-dat-met-je-bedrijf-meegroeit"
+source: "wordpress"
+legacy: true
 ---
-
 <h2 class="wp-block-heading">Waarom de keuze voor kantoorruimte je groei kan versnellen óf remmen</h2>
 
 

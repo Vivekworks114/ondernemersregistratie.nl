@@ -8,8 +8,9 @@ categories:
   - "Uncategorised"
 featuredImage: "/images/content/2025/04/image36.png"
 slug: "van-start-tot-groei-zo-richt-je-je-praktijk-professioneel-in"
+source: "wordpress"
+legacy: true
 ---
-
 <p>Een eigen praktijk starten is spannend, een beetje chaotisch en vooral heel leuk. Je gaat van idee naar werkelijkheid en dat voelt als het bouwen van je eigen wereld. Met de juiste keuzes vanaf dag één zorg je dat je praktijk niet alleen goed start, maar ook soepel meegroeit. Tijd om dit slim, professioneel en relaxed aan te pakken.</p>
 
 

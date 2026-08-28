@@ -8,8 +8,9 @@ categories:
   - "Uncategorised"
 featuredImage: "/images/content/2026/05/etienne-girardet-NGb91VwnOWY-unsplash.jpg"
 slug: "zo-kies-je-verlichting-die-past-bij-elke-ruimte-in-je-woning"
+source: "wordpress"
+legacy: true
 ---
-
 <p>Verlichting bepaalt hoe je een ruimte gebruikt en ervaart. Te fel licht zorgt voor onrust, terwijl te weinig licht het dagelijks gebruik belemmert. Daarom is het belangrijk om per ruimte een duidelijke functie voor je verlichting te kiezen. In de woonkamer draait het om ontspanning, terwijl je in de keuken juist helder zicht nodig hebt. Ook de lichtkleur speelt een rol. Warm licht geeft sfeer, terwijl koeler licht beter werkt bij activiteiten die concentratie vragen. De plaatsing beïnvloedt bovendien hoe licht op muren en meubels valt. Zo kun je diepte creëren of juist rust brengen. Door vooraf keuzes te maken, voorkom je losse combinaties zonder samenhang. Het resultaat voelt prettig aan op elk moment van de dag.</p>
 <h2>De basis: soorten verlichting en hun functie</h2>
 <p>Elke ruimte vraagt om een combinatie van verschillende lichtsoorten. Basisverlichting zorgt voor algemene helderheid, bijvoorbeeld met plafondlampen die het licht gelijkmatig verspreiden. Taakverlichting gebruik je voor specifieke handelingen, zoals een bureaulamp tijdens het werken of verlichting boven het aanrecht tijdens het koken. Sfeerverlichting zorgt vervolgens voor een aangename uitstraling in huis.</p>

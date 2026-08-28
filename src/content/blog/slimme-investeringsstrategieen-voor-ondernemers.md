@@ -7,8 +7,9 @@ categories:
   - "Uncategorised"
 featuredImage: "/images/blog/featured-6.png"
 slug: "slimme-investeringsstrategieen-voor-ondernemers"
+source: "wordpress"
+legacy: true
 ---
-
 <p>Als ondernemer steek je waarschijnlijk al je energie, tijd en kapitaal in je eigen bedrijf. Dat is logisch, want daar ligt je passie en je primaire bron van inkomsten. Maar wat als je je zuurverdiende winst ook buiten je eigen onderneming aan het werk kunt zetten? Slimme ondernemers kijken verder en bouwen aan een financieel solide toekomst door te diversifiëren.</p>
 <p>Het spreiden van je kapitaal over verschillende investeringen is een bewezen methode om risico's te verkleinen en stabiele groei te realiseren. Als je bedrijf het even wat zwaarder heeft, kunnen andere investeringen voor een financieel vangnet zorgen. Dit geeft niet alleen gemoedsrust, maar opent ook de deur naar nieuwe kansen voor vermogensgroei.</p>
 <h2>Waarom diversificatie de sleutel tot succes is</h2>

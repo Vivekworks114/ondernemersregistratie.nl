@@ -1,5 +1,6 @@
 import { defineCollection, z } from 'astro:content';
 import { glob } from 'astro/loaders';
+import { isSpamBlogEntry } from './lib/spamBlogFilter';
 
 const payloadString = (fallback = '') =>
   z.preprocess((val) => (val == null ? fallback : String(val)), z.string());
@@ -86,13 +87,13 @@ const blog = defineCollection({
         coerceImageValue(data.heroImage) ??
         coerceImageValue(data.image);
       const status = String(data._status ?? data.publishStatus ?? '').toLowerCase();
-      const draft =
+      let draft =
         Boolean(data.draft) ||
         status === 'draft' ||
         status === 'unpublished' ||
         status === 'scheduled';
 
-      return {
+      const entry = {
         title: data.title,
         description: data.description ?? '',
         pubDate: data.pubDate,
@@ -106,6 +107,12 @@ const blog = defineCollection({
         slug: data.slug,
         draft,
       };
+
+      if (isSpamBlogEntry({ id: String(data.slug ?? ''), data: entry })) {
+        entry.draft = true;
+      }
+
+      return entry;
     }),
 });
 

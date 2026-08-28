@@ -8,8 +8,9 @@ categories:
   - "Uncategorised"
 featuredImage: "/images/content/2026/04/featured-29-scaled.jpg"
 slug: "waar-zorgaanbieders-aan-moeten-voldoen-volgens-de-wet"
+source: "wordpress"
+legacy: true
 ---
-
 <p>Zorgaanbieders moeten voldoen aan duidelijke wettelijke eisen. Deze regels sturen op kwaliteit, veiligheid en transparantie. Je levert zorg volgens vastgestelde normen en legt je werkwijze vast. Daarnaast zorg je voor een toegankelijke klachtenafhandeling en sluit je je aan bij een geschilleninstantie. Toezichthouders controleren actief of je aan deze verplichtingen voldoet. Daarom houd je dossiers zorgvuldig bij en meld je incidenten volgens vaste procedures. Ook werk je samen met verzekeraars, gemeenten en zorgkantoren. De regels verschillen per type zorg, maar de basis blijft gelijk. Je toont aan dat je veilige zorg levert en zorgvuldig handelt bij klachten. Zo weten cliënten waar ze aan toe zijn en blijft jouw organisatie controleerbaar.</p>
 <h2>Wet kwaliteit, klachten en geschillen zorg (Wkkgz)</h2>
 <p>De Wkkgz stelt duidelijke eisen aan jouw organisatie. Je levert zorg van goed niveau volgens professionele standaarden. Daarom werk je met deskundig personeel en duidelijke protocollen. Ook richt je een klachtenregeling in, zodat cliënten eenvoudig een klacht kunnen indienen. Je behandelt elke melding zorgvuldig en legt alle stappen vast. Daarnaast sluit je je aan bij een erkende geschilleninstantie die conflicten onafhankelijk behandelt.</p>

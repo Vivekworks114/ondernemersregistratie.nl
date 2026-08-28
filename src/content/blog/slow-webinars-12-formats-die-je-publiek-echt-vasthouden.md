@@ -8,8 +8,9 @@ categories:
   - "Blog"
 featuredImage: "/images/content/2026/03/Slow-webinar.jpg"
 slug: "slow-webinars-12-formats-die-je-publiek-echt-vasthouden"
+source: "wordpress"
+legacy: true
 ---
-
 <p>Iedereen kent ze wel: webinars die aanvoelen als een hogesnelheidstrein zonder tussenstops. Dia na dia, lijstjes vol informatie, nauwelijks tijd om iets te verwerken. Aan het einde blijft vooral vermoeidheid hangen. En dat is precies waarom slow webinars steeds populairder worden.</p>
 
 

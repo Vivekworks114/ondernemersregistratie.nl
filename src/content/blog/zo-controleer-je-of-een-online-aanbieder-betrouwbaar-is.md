@@ -8,8 +8,9 @@ categories:
   - "Uncategorised"
 featuredImage: "/images/content/2026/04/featured-27-scaled.jpg"
 slug: "zo-controleer-je-of-een-online-aanbieder-betrouwbaar-is"
+source: "wordpress"
+legacy: true
 ---
-
 <p>Je wilt voorkomen dat je geld verliest aan een onbetrouwbare webshop. Daarom controleer je vooraf een aantal vaste punten. Onbekende aanbieders tonen soms onduidelijke informatie of wisselende beoordelingen, wat het risico op problemen vergroot. Door gericht te controleren, herken je signalen die op onbetrouwbaarheid wijzen.</p>
 <p>Denk aan ontbrekende contactgegevens of opvallende aanbiedingen. Tegelijk helpt een vaste aanpak bij het maken van snelle keuzes. Je weet waar je op moet letten en plaatst daardoor een bestelling met meer zekerheid. Zo houd je controle over je aankoop zonder onnodige risico’s.</p>
 <h2>Controleer de bedrijfsgegevens</h2>

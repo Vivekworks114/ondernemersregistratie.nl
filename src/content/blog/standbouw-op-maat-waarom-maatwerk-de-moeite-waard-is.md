@@ -8,8 +8,9 @@ categories:
   - "Uncategorised"
 featuredImage: "/images/blog/featured-9.png"
 slug: "standbouw-op-maat-waarom-maatwerk-de-moeite-waard-is"
+source: "wordpress"
+legacy: true
 ---
-
 <p>Een standaard beursstand doet zijn werk, maar een stand op maat doet het beter. Maatwerk standbouw biedt de mogelijkheid om exact te bouwen wat jouw merk nodig heeft. In dit artikel lees je waarom investeren in maatwerk standbouw een slimme zakelijke beslissing is.</p>
 <h2>Wat is standbouw op maat?</h2>
 <p><a href="https://eldee.com/standbouw/beursstand-op-maat" target="_blank" rel="noopener">Standbouw op maat</a> betekent dat je stand volledig wordt ontworpen en gebouwd op basis van jouw specifieke wensen, je merk en de ruimte die je op de beurs hebt. Geen standaardelementen, maar een uniek concept dat precies bij jou past.</p>

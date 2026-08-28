@@ -8,8 +8,9 @@ categories:
   - "Blog"
 featuredImage: "/images/content/2025/12/thuiswerk-2-e1765555852959.jpg"
 slug: "onbetaalde-facturen-zo-pak-je-als-ondernemer-de-controle-terug"
+source: "wordpress"
+legacy: true
 ---
-
 <p>Als ondernemer steek je al je energie in het leveren van een geweldig product of een uitstekende dienst. Je doet je werk, verstuurt de factuur en dan… blijft het stil. Een onbetaalde factuur is meer dan alleen een administratieve ergernis, het kan de levensader van je bedrijf, je cashflow, ernstig verstoren. Voor veel zelfstandigen en mkb'ers is dit een herkenbaar en frustrerend probleem.</p>
 
 

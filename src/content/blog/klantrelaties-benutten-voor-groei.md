@@ -8,8 +8,9 @@ categories:
   - "Blog"
 featuredImage: "/images/content/2025/04/image36.png"
 slug: "klantrelaties-benutten-voor-groei"
+source: "wordpress"
+legacy: true
 ---
-
 <p><em>Waarom jouw MKB niet zonder CRM kan</em></p>
 
 

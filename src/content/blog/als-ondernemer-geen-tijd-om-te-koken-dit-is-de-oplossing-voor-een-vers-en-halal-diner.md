@@ -7,8 +7,9 @@ categories:
   - "Uncategorised"
 featuredImage: "/images/blog/featured-12.png"
 slug: "als-ondernemer-geen-tijd-om-te-koken-dit-is-de-oplossing-voor-een-vers-en-halal-diner"
+source: "wordpress"
+legacy: true
 ---
-
 <p>Wie net een eigen bedrijf runt, herkent het patroon meteen: de werkdag stopt niet om zes uur en koken staat zelden hoog op de planning. Veel zelfstandige ondernemers grijpen daardoor terug op snelle, weinig voedzame opties of slaan een maaltijd gewoon over. Toch hoeft een volle agenda niet te betekenen dat eten erbij inschiet. Dit artikel laat zien waarom verse, halal maaltijdbezorging voor steeds meer ondernemers de oplossing is wanneer koken simpelweg geen ruimte krijgt.</p>
 <h2>Waarom tijd voor koken vaak ontbreekt als ondernemer</h2>
 <p>Een eigen bedrijf runnen betekent vaak onregelmatige dagen. Klantafspraken, administratie en operationele taken lopen voortdurend door elkaar, waardoor een vast kookmoment al snel verdwijnt. Voor wie alleen werkt, is er ook niemand die het overneemt op de momenten dat een dag drukker uitvalt dan gepland.</p>

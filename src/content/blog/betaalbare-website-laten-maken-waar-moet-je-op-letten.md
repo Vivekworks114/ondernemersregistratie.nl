@@ -8,8 +8,9 @@ categories:
   - "Uncategorised"
 featuredImage: "/images/content/2025/04/image36.png"
 slug: "betaalbare-website-laten-maken-waar-moet-je-op-letten"
+source: "wordpress"
+legacy: true
 ---
-
 <p>Een website laten bouwen klinkt vaak duurder dan het is. Je ziet prijzen van honderd euro tot tienduizenden euro’s voorbij komen en denkt: wat krijg je hier eigenlijk voor? Geen stress. Ik neem je mee in waar je écht op moet letten als je slim en betaalbaar online wilt gaan knallen.</p>
 
 

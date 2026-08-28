@@ -8,8 +8,9 @@ categories:
   - "Blog"
 featuredImage: "/images/content/2026/01/ergonomische-werkplek.jpg"
 slug: "een-ergonomische-werkplek-is-de-investering-die-elke-ondernemer-geld-oplevert"
+source: "wordpress"
+legacy: true
 ---
-
 <p>Ondernemen vraagt veel. Focus, energie en doorzettingsvermogen zijn onmisbaar om doelen te bereiken. Maar wat vaak wordt vergeten, is dat het lichaam de basis vormt voor iedere werkdag. Een verkeerde werkhouding of onpraktische werkplek kost ongemerkt energie, veroorzaakt klachten en remt de productiviteit. Daarom kiezen steeds meer ondernemers bewust voor een ergonomische werkplek.</p>
 
 

@@ -8,8 +8,9 @@ categories:
   - "Blog"
 featuredImage: "/images/blog/featured-4.png"
 slug: "it-specialisten-als-motor-achter-moderne-ondernemingen"
+source: "wordpress"
+legacy: true
 ---
-
 <p>Moderne bedrijven draaien op technologie, en achter die technologie zitten mensen die precies weten wat ze doen. IT specialisten zijn tegenwoordig geen bijzaak meer, maar de motor van bijna elk bedrijf. Zonder hen geen websites, geen systemen, geen data en eerlijk gezegd ook geen koffieautomaat die werkt.</p>
 
 

@@ -8,8 +8,9 @@ categories:
   - "Blog"
 featuredImage: "/images/content/2025/04/image37.png"
 slug: "slim-printen-op-kantoor-gaat-om-meer-dan-alleen-inkt-en-papier"
+source: "wordpress"
+legacy: true
 ---
-
 <p>Als ondernemer ben je continu bezig met het optimaliseren van je bedrijfsprocessen. Je denkt na over marketing, software en personeel, maar hoe vaak sta je stil bij iets alledaags als de printer? Hoewel we steeds meer digitaal werken, blijft de printer voor veel bedrijven een belangrijk apparaat. Een doordachte printstrategie kan je echter meer opleveren dan je denkt: lagere kosten, een betere workflow en zelfs meer veiligheid.</p>
 
 

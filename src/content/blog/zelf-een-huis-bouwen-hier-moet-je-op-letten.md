@@ -7,8 +7,9 @@ categories:
   - "Uncategorised"
 featuredImage: "/images/blog/featured-11.png"
 slug: "zelf-een-huis-bouwen-hier-moet-je-op-letten"
+source: "wordpress"
+legacy: true
 ---
-
 <p>Zelf een huis bouwen is voor veel ondernemers meer dan een woonwens. Het is ook een investering in ruimte, vrijheid en toekomstwaarde. Misschien wil je wonen en werken op één plek. Misschien zoek je een kavel die past bij je bedrijf en privéleven. Voordat je plannen maakt, moet je weten wat er mag. Denk aan de kavel, het omgevingsplan, vergunningen, financiering en begeleiding. Door vooraf goed te kijken naar kansen en risico’s, maak je betere keuzes. In deze blog lees je waar je op moet letten als je zelf een huis wilt bouwen.</p>
 <h2>Begin met een helder bouwplan</h2>
 <p>Zelf een huis bouwen begint met keuzes die verder gaan dan wooncomfort. Zeker als ondernemer kijk je anders naar een woning. Als ondernemer wil je al helemaal een huis dat past bij je privéleven en je zakelijke plannen. Denk aan een kantoor aan huis, extra bergruimte of een aparte plek voor afspraken. Voor ondernemers die vanuit huis werken, is die keuze extra belangrijk. Een woning kan namelijk invloed hebben op focus, planning en groei. Zeker bij <a href="/de-opkomst-van-thuisgebaseerde-ondernemingen-in-de-entertainmentsector/" target="_blank" rel="noopener">thuisgebaseerde ondernemingen</a> moet de indeling passen bij werk en privé. Denk daarom vooraf na over een aparte werkplek, goede bereikbaarheid en voldoende rust. Ook je agenda, werkritme en financiële ruimte tellen mee. Daarom is het slim om vooraf duidelijk te bepalen wat je nodig hebt. Kijk niet alleen naar vandaag, maar ook naar de komende jaren. Misschien groeit je bedrijf of verandert je gezinssituatie. Een helder bouwplan voorkomt dat je later dure aanpassingen moet doen.</p>

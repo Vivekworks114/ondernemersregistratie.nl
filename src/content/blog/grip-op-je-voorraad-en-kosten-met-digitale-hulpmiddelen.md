@@ -8,8 +8,9 @@ categories:
   - "Uncategorised"
 featuredImage: "/images/content/2026/04/featured-18.jpg"
 slug: "grip-op-je-voorraad-en-kosten-met-digitale-hulpmiddelen"
+source: "wordpress"
+legacy: true
 ---
-
 <p>Voorraad raakt uit balans door onnauwkeurige registratie. Kosten lopen op zonder duidelijk signaal, waardoor je dit vaak pas merkt bij lagere marges. Digitale hulpmiddelen geven direct inzicht in wat er gebeurt. Daardoor zie je sneller waar afwijkingen ontstaan en stuur je bij op basis van actuele gegevens. Dit voorkomt verspilling en onnodige inkoop.</p>
 <p>Je werkt met één bron van waarheid, waardoor losse lijsten en schattingen verdwijnen. Tegelijk krijg je meer grip op dagelijkse processen. Je weet wat er binnenkomt, wat vertrekt en wat blijft liggen. Zo neem je gerichte beslissingen zonder te hoeven gokken.</p>
 <h2>Inzicht krijgen in je voorraadstromen</h2>

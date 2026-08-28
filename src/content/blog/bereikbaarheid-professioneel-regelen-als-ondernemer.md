@@ -8,8 +8,9 @@ categories:
   - "Blog"
 featuredImage: "/images/content/2026/02/pexels-cristian-rojas-10041271.jpg"
 slug: "bereikbaarheid-professioneel-regelen-als-ondernemer"
+source: "wordpress"
+legacy: true
 ---
-
 <p>Bereikbaar zijn als ondernemer klinkt simpel, maar het is een vak apart. Je wil niet continu met je telefoon vergroeid zijn, maar ook geen kansen missen omdat niemand je kan bereiken. Slim omgaan met bereikbaarheid zorgt voor rust in je hoofd, vertrouwen bij klanten en ruimte om te groeien, zonder dat je agenda ontploft of je batterij leegloopt.</p>
 
 

@@ -7,8 +7,9 @@ categories:
   - "Uncategorised"
 featuredImage: "/images/blog/featured-7.png"
 slug: "hoe-een-goede-verpakking-meer-doet-dan-beschermen"
+source: "wordpress"
+legacy: true
 ---
-
 <p>Veel mensen denken dat een verpakking alleen bedoeld is om een producten veilig van A naar B te vervoeren. Toch doet een goede verpakking veel meer dan dat. Voor ondernemers kan de juiste verpakking bijdragen aan vertrouwen, herkenbaarheid en een betere ervaring voor de klant. Vanaf het moment dat een klant een pakket ontvangt, zegt de verpakking iets over je bedrijf. Is het materiaal stevig? Ziet het er verzorgd uit? En is de verpakking makkelijk te openen of opnieuw te gebruiken? In deze blog lees je waarom een goede verpakking verder gaat dan bescherming alleen.<strong>Bescherming blijft de basis</strong></p>
 <p>Een goede verpakking moet in de eerste plaats het product beschermen. Klanten verwachten dat hun bestelling netjes en onbeschadigd aankomt. Dat lijkt vanzelfsprekend, maar daar gaat in de praktijk nog vaak iets mis. Kies daarom voor verpakkingsmateriaal dat past bij het product. Een breekbaar artikel vraagt om meer bescherming dan een stevig product.</p>
 <p>Ook het formaat van de verpakking maakt verschil. Een te grote doos zorgt sneller voor inefficiënties tijdens het <a href="/slim-ruimtebeheer-is-de-sleutel-tot-groei-voor-elke-ondernemer/" target="_blank" rel="noopener">ruimtebeheer</a> en transport. Een te kleine verpakking kan juist druk zetten op het product. Goede opvulling helpt om schade te voorkomen. Denk aan papier, karton of ander passend vulmateriaal. Daarmee blijft het product beter op zijn plek tijdens verzending. Voor <a href="/zo-bouw-je-slim-aan-je-financiele-toekomst-als-ondernemer/" target="_blank" rel="noopener">ondernemers</a> scheelt dit klachten, retourneren en extra kosten.</p>

@@ -7,8 +7,9 @@ categories:
   - "Uncategorised"
 featuredImage: "/images/blog/featured-5.png"
 slug: "hoe-bereid-je-je-bedrijf-voor-op-een-kredietaanvraag"
+source: "wordpress"
+legacy: true
 ---
-
 <p>Extra krediet aanvragen is voor een ondernemer vaak een strategische zet om kansen te grijpen of groei te versnellen. Om dit kapitaal succesvol binnen te halen, is een ijzersterke voorbereiding onmisbaar voor een soepel verloop van het proces. Wanneer je vooraf je administratie en toekomstplannen kritisch analyseert, transformeer je onzekerheid in een krachtige presentatie voor een geldverstrekker. Een financier investeert namelijk het liefst in een ondernemer die de eigen cijfers door en door begrijpt en precies weet waar elke euro naartoe gaat.</p>
 <h2>De administratieve grote schoonmaak</h2>
 <p>Een actuele boekhouding vormt het fundament onder elke aanvraag, omdat financiers direct willen zien hoe de zaak er vandaag voor staat. Het bijwerken van de administratie tot op de laatste week geeft een signaal van professionaliteit en transparantie af. Moderne aanbieders maken <a href="https://www.bridgefund.nl/zakelijke-lening/" target="_blank" rel="noopener">zakelijk geld lenen</a> mogelijk door slimme koppelingen met je bankrekening of boekhoudpakket, waardoor je razendsnel weet waar je aan toe bent. Wanneer je de jaarcijfers van de afgelopen twee jaar en de actuele winst-en-verliesrekening paraat hebt, verloopt het proces een stuk soepeler. Dit voorkomt dat een kredietverstrekker onnodig lang moet wachten op aanvullende documentatie, wat de kans op een snelle goedkeuring aanzienlijk vergroot.</p>

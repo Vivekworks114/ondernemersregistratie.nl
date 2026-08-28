@@ -8,8 +8,9 @@ categories:
   - "Uncategorised"
 featuredImage: "/images/blog/featured-9.png"
 slug: "het-naleven-van-de-signalisatie-in-de-bouw-veiligheid-voor-iedereen"
+source: "wordpress"
+legacy: true
 ---
-
 <p>De bouw is een complexe en verantwoordelijke sector, waarin de veiligheid van werknemers en een goede organisatie van de werkzaamheden een belangrijke rol spelen. Om de gezondheid en het leven van mensen te beschermen, worden verschillende borden en symbolen gebruikt. Deze helpen om belangrijke informatie snel over te brengen. Op een bouwplaats, waar veel processen tegelijkertijd plaatsvinden en een groot aantal mensen en machines aan het werk is, zijn visuele markeringen een belangrijk hulpmiddel voor coördinatie en het voorkomen van gevaarlijke situaties.Klik op de link voor interessante informatie over de verschillende soorten borden <a href="http://signs-nl.com" target="_blank" rel="noreferrer noopener">signs-nl.com</a>.</p>
 
 

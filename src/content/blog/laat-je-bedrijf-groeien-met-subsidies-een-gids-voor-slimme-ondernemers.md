@@ -7,8 +7,9 @@ categories:
   - "Uncategorised"
 featuredImage: "/images/blog/featured-8.png"
 slug: "laat-je-bedrijf-groeien-met-subsidies-een-gids-voor-slimme-ondernemers"
+source: "wordpress"
+legacy: true
 ---
-
 <p>Als ondernemer ben je constant bezig met de toekomst. Je wilt groeien, innoveren en je team versterken. Maar ambitieuze plannen vragen vaak om een flinke investering. Gelukkig hoef je er niet alleen voor te staan. De overheid biedt namelijk diverse subsidies om ondernemers in Nederland een financieel duwtje in de rug te geven. Veel ondernemers laten deze kansen echter onbenut, simpelweg omdat ze niet weten waar ze moeten beginnen.</p>
 <h2>Waarom subsidies een kans zijn voor jouw mkb-onderneming</h2>
 <p>Subsidies worden vaak gezien als een complexe en bureaucratische aangelegenheid, maar de voordelen zijn de moeite meer dan waard. Ze bieden de financiële ruimte om te investeren in nieuwe technologie, het opleiden van personeel of het verduurzamen van je bedrijfsprocessen. Hierdoor versterk je niet alleen je eigen bedrijf, maar ook je concurrentiepositie in de markt.</p>

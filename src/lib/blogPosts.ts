@@ -1,4 +1,5 @@
 import type { CollectionEntry } from 'astro:content';
+import { isSpamBlogEntry } from './spamBlogFilter';
 
 export type BlogEntry = CollectionEntry<'blog'>;
 
@@ -16,9 +17,15 @@ export const RESERVED_ROOT_SLUGS = new Set([
   'index',
 ]);
 
+export function isLiveBlogPost(post: BlogEntry): boolean {
+  if (post.data.draft) return false;
+  if (isSpamBlogEntry(post)) return false;
+  return true;
+}
+
 export function sortBlogPosts(posts: BlogEntry[]): BlogEntry[] {
   return [...posts]
-    .filter((p) => !p.data.draft)
+    .filter(isLiveBlogPost)
     .sort((a, b) => {
       const da = a.data.pubDate instanceof Date ? a.data.pubDate : new Date(String(a.data.pubDate ?? 0));
       const db = b.data.pubDate instanceof Date ? b.data.pubDate : new Date(String(b.data.pubDate ?? 0));

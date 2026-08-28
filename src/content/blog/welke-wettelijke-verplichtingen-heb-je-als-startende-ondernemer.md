@@ -7,8 +7,9 @@ categories:
   - "Uncategorised"
 featuredImage: "/images/blog/featured-9.png"
 slug: "welke-wettelijke-verplichtingen-heb-je-als-startende-ondernemer"
+source: "wordpress"
+legacy: true
 ---
-
 <p>Een eigen bedrijf starten brengt veel vrijheid met zich mee. Toch krijg je als startende ondernemer ook te maken met wettelijke verplichtingen. Denk aan je inschrijving bij de KvK, administratie, belastingaangifte en mogelijke vergunningen. Welke regels voor jou gelden, hangt af van je bedrijf, branche en werkwijze. Het is verstandig om hier al vóór de start goed naar te kijken. Daarmee voorkom je dat je later belangrijke zaken over het hoofd ziet. In deze blog lees je welke verplichtingen vaak terugkomen bij startende ondernemers. Ook lees je waarom sommige regels per branche kunnen verschillen.</p>
 <h2>Schrijf je onderneming in bij de KvK</h2>
 <p>Als je een bedrijf start, moet je je onderneming meestal inschrijven bij de KvK. Dit geldt wanneer je zelfstandig producten of diensten levert en daarmee geld verdient. Tijdens de inschrijving geef je belangrijke bedrijfsgegevens door. Denk aan je bedrijfsnaam, rechtsvorm, activiteiten en vestigingsadres. Deze gegevens worden gebruikt door de overheid, klanten en zakelijke partijen. Daarom is het belangrijk dat je inschrijving klopt met wat je daadwerkelijk doet.</p>

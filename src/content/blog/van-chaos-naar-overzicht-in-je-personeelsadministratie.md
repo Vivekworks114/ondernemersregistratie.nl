@@ -7,8 +7,9 @@ categories:
   - "Uncategorised"
 featuredImage: "/images/blog/featured-10.png"
 slug: "van-chaos-naar-overzicht-in-je-personeelsadministratie"
+source: "wordpress"
+legacy: true
 ---
-
 <p>Ken je dat gevoel? Je hebt een afspraak met je boekhouder, maar je weet niet precies hoeveel uren je medewerkers de afgelopen maand hebben gemaakt. Of je krijgt een vraag over vakantiedagen en je moet drie verschillende Excel-bestanden doorzoeken voor je het antwoord hebt. Als ondernemer heb je genoeg aan je hoofd. Je personeelsadministratie hoort daar niet bij te horen.</p>
 <h2>Waarom personeelsadministratie zo vaak misgaat</h2>
 <p>Het begint altijd klein. Eén medewerker, een simpel Excel-bestandje en alles is overzichtelijk. Maar zodra je bedrijf groeit, groeit de administratie mee. Meer mensen, meer contracten, meer verlofaanvragen, meer urenregistraties. Wat ooit een handige spreadsheet was, wordt al snel een onoverzichtelijk geheel waar niemand meer chocola van kan maken.</p>

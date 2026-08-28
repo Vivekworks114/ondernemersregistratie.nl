@@ -8,8 +8,9 @@ categories:
   - "Blog"
 featuredImage: "/images/content/2026/02/iStock-991852382.jpg"
 slug: "je-bedrijfspand-geschikt-maken-voor-scootmobielers-best-practices"
+source: "wordpress"
+legacy: true
 ---
-
 <p>Steeds meer mensen gebruiken een scootmobiel. Dat vraagt om aanpassingen van ondernemers en vastgoedeigenaren. Immers, scootmobielgebruikers moeten zonder problemen winkels, zorginstellingen, kantoren en horecagelegenheden kunnen bezoeken. Een pand geschikt maken voor scootmobielers is geen ingewikkelde verbouwing, maar het vraagt wel om slimme keuzes. Welke acties kun je als ondernemer precies nemen om een goede toegankelijkheid te bieden voor scootmobielers?</p>
 
 

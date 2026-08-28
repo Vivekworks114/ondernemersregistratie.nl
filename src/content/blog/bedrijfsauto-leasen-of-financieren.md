@@ -7,8 +7,9 @@ categories:
   - "Uncategorised"
 featuredImage: "/images/blog/featured-4.png"
 slug: "bedrijfsauto-leasen-of-financieren"
+source: "wordpress"
+legacy: true
 ---
-
 <p>Als ondernemer ben je vaak onderweg. Of je nu klanten bezoekt, materialen ophaalt of onderweg bent naar een project, een betrouwbare auto is al snel onmisbaar. Maar hoe schaf je die aan zonder direct een grote investering te doen? Zakelijk leasen of financieren kan een oplossing zijn. Er zijn echter verschillende vormen en de juiste keuze hangt af van je wensen en bedrijfssituatie.</p>
 <p>Het is belangrijk om de opties goed te begrijpen voordat je een contract ondertekent. De keuze tussen verschillende leasevormen heeft namelijk invloed op je administratie, kosten en verantwoordelijkheden. Laten we de meest voorkomende opties voor ondernemers eens bekijken.</p>
 <h2>Verschil tussen operational en financial lease</h2>

@@ -8,8 +8,9 @@ categories:
   - "Uncategorised"
 featuredImage: "/images/content/2026/04/featured-26-scaled.jpg"
 slug: "wanneer-is-alternatieve-verwarming-rendabel-voor-ondernemers"
+source: "wordpress"
+legacy: true
 ---
-
 <p>Stijgende energieprijzen drukken direct op je bedrijfsresultaat. Je zoekt daarom naar alternatieven met lagere en stabielere kosten. De vraag is wanneer zo’n investering rendabel wordt. Dit hangt af van je energieverbruik, het type pand en de investeringskosten. Ook toekomstige prijsontwikkelingen spelen een rol.</p>
 <p>Je wilt vooraf weten wanneer de overstap financieel logisch is. Een verkeerde keuze kan je kosten juist verhogen. Daarom weeg je investering, besparing en praktische haalbaarheid zorgvuldig af. Zo houd je grip op je energiekosten.</p>
 <h2>Wat verstaan we onder alternatieve verwarming?</h2>

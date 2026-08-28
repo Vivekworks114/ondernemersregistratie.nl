@@ -7,8 +7,9 @@ categories:
   - "Uncategorised"
 featuredImage: "/images/blog/featured-9.png"
 slug: "pins-laten-maken-de-complete-gids-voor-gepersonaliseerde-pins"
+source: "wordpress"
+legacy: true
 ---
-
 <p>Gepersonaliseerde pins zijn een populaire en betaalbare manier om jouw merk, club of evenement zichtbaar te maken. Of je nu een klein oplage wilt of duizenden stuks nodig hebt, pins laten maken is eenvoudiger dan je denkt. Wij leggen alles uit.</p>
 <h2>Waarvoor gebruik je gepersonaliseerde pins?</h2>
 <p>Pins worden ingezet voor uiteenlopende doeleinden: als merchandiseproduct, als herinnering aan een evenement, als clubidentificatie of als promotiegeschenk. Wil je snel en eenvoudig <strong><a href="https://www.pro-merchandise.nl/nl/merchandise/pins" target="_blank" rel="noopener">Pins laten maken</a></strong>? Bij Pro Merchandise vind je een uitgebreid assortiment en persoonlijk advies.</p>
