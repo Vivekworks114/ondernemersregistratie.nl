@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /**
  * Normalize Payload-synced blog markdown before Astro build.
- * Fixes R2 tenant URLs, draft flags, and Payload source markers.
+ * Only rewrites files that need R2 URL fixes or draft-flag cleanup.
  */
 import fs from 'node:fs/promises';
 import path from 'node:path';
@@ -12,7 +12,6 @@ import {
   resolveBlogHeroImage,
   splitFrontmatter,
 } from './lib/blog-frontmatter.mjs';
-import { isPayloadFrontmatter, payloadFrontmatterFields } from './lib/blog-source.mjs';
 import { rewriteTenantR2Url } from './lib/media-url.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -27,6 +26,15 @@ function needsImageFix(value) {
   return fixed !== raw;
 }
 
+function pickImageFields(data, heroImage) {
+  const out = {};
+  if (!heroImage) return out;
+  out.heroImage = heroImage;
+  out.featuredImage = heroImage;
+  out.image = heroImage;
+  return out;
+}
+
 let updated = 0;
 let skipped = 0;
 
@@ -39,7 +47,6 @@ try {
 
     const heroImage = resolveBlogHeroImage(data);
     const published = isPublishedFrontmatter(data);
-    const isPayload = isPayloadFrontmatter(data);
     const imageNeedsFix =
       needsImageFix(data.heroImage) ||
       needsImageFix(data.featuredImage) ||
@@ -50,23 +57,13 @@ try {
         data.draft === 'true' ||
         data._status ||
         data.publishStatus);
-    const sourceNeedsFix = isPayload && data.source !== 'payload';
 
-    if (!imageNeedsFix && !draftNeedsFix && !sourceNeedsFix) {
+    if (!imageNeedsFix && !draftNeedsFix) {
       skipped += 1;
       continue;
     }
 
-    const nextData = { ...data, ...(isPayload ? payloadFrontmatterFields() : {}) };
-    if (heroImage) {
-      nextData.heroImage = heroImage;
-      nextData.featuredImage = heroImage;
-      nextData.image = heroImage;
-    } else if (isPayload) {
-      delete nextData.heroImage;
-      delete nextData.featuredImage;
-      delete nextData.image;
-    }
+    const nextData = { ...data, ...pickImageFields(data, heroImage) };
     if (published) {
       nextData.draft = false;
       delete nextData._status;

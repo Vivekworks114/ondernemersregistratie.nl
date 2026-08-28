@@ -14,12 +14,13 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import {
   rebuildMarkdown,
+  removeFrontmatterField,
   resolveBlogCategories,
   resolveBlogHeroImage,
   splitFrontmatter,
+  upsertFrontmatterField,
 } from './lib/blog-frontmatter.mjs';
 import { extractMediaPath, resolveMediaUrl } from './lib/media-url.mjs';
-import { isLegacyFrontmatter, payloadFrontmatterFields, PAYLOAD_SOURCE } from './lib/blog-source.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, '..');
@@ -303,7 +304,6 @@ function buildMarkdown(post) {
     author: post.author,
     categories,
     draft: false,
-    ...payloadFrontmatterFields(),
   };
   if (heroImage) {
     data.heroImage = heroImage;
@@ -364,7 +364,6 @@ async function updateExistingFrontmatter(filePath, post) {
     author: post.author,
     categories: post.categories,
     draft: false,
-    ...payloadFrontmatterFields(),
   };
   delete nextData._status;
   delete nextData.publishStatus;
@@ -373,10 +372,6 @@ async function updateExistingFrontmatter(filePath, post) {
     nextData.heroImage = heroImage;
     nextData.featuredImage = post.featuredImage || heroImage;
     nextData.image = post.featuredImage || heroImage;
-  } else {
-    delete nextData.heroImage;
-    delete nextData.featuredImage;
-    delete nextData.image;
   }
 
   if (post.html && post.html.replace(/<[^>]+>/g, '').trim().length > 40) {
@@ -404,11 +399,11 @@ export async function syncBlogFromPayload() {
 
   const apiKey = process.env.PAYLOAD_API_KEY || process.env.PAYLOAD_TOKEN || '';
   if (!apiKey) {
-    console.log('[sync:blog] No PAYLOAD_API_KEY — tenant-cli + mark/prune handle CI publish sync.');
+    console.log('[sync:blog] No PAYLOAD_API_KEY — skip (tenant-cli sync + restore handles CI).');
     return;
   }
 
-  console.log(`[sync:blog] Payload sync for ${TENANT} from ${payloadBaseUrl()} …`);
+  console.log(`[sync:blog] Merge sync for ${TENANT} from ${payloadBaseUrl()} …`);
 
   let docs = [];
   for (const name of [
@@ -422,11 +417,12 @@ export async function syncBlogFromPayload() {
   }
 
   const mapped = docs.map(mapDoc).filter(Boolean);
-  const syncedSlugs = new Set(mapped.map((post) => post.slug));
   const existingCount = await readExistingSlugs();
 
-  if (!mapped.length && existingCount === 0) {
-    console.warn('[sync:blog] No published Payload posts found.');
+  if (!mapped.length) {
+    console.warn(
+      `[sync:blog] No published Payload posts found (${existingCount} local file(s) kept).`,
+    );
     return;
   }
 
@@ -434,7 +430,6 @@ export async function syncBlogFromPayload() {
 
   let created = 0;
   let updated = 0;
-  let removed = 0;
 
   for (const post of mapped) {
     const filePath = path.join(BLOG_DIR, `${post.slug}.md`);
@@ -451,33 +446,9 @@ export async function syncBlogFromPayload() {
     }
   }
 
-  for (const file of await fs.readdir(BLOG_DIR)) {
-    if (!file.endsWith('.md') && !file.endsWith('.mdx')) continue;
-    const slug = file.replace(/\.(md|mdx)$/, '');
-    if (syncedSlugs.has(slug)) continue;
-
-    const filePath = path.join(BLOG_DIR, file);
-    const raw = await fs.readFile(filePath, 'utf8');
-    const { data } = splitFrontmatter(raw);
-    if (isLegacyFrontmatter(data)) continue;
-    if (data.source !== 'payload' && data.source !== PAYLOAD_SOURCE) continue;
-
-    await fs.unlink(filePath);
-    removed += 1;
-    console.log(`[sync:blog] removed unpublished ${slug}`);
-  }
-
-  // Update snapshot after API sync (local dev / when API key is available).
-  const snapshotPath = path.join(ROOT, '.cache/payload-published-slugs.json');
-  await fs.mkdir(path.dirname(snapshotPath), { recursive: true });
-  await fs.writeFile(
-    snapshotPath,
-    JSON.stringify({ slugs: [...syncedSlugs], at: new Date().toISOString() }, null, 2),
-    'utf8',
-  );
-
+  // Merge mode: never delete legacy WordPress articles missing from Payload.
   console.log(
-    `[sync:blog] Done. ${mapped.length} published; created ${created}, updated ${updated}, removed ${removed}.`,
+    `[sync:blog] Done. ${mapped.length} Payload posts merged; created ${created}, updated ${updated}; legacy files kept.`,
   );
 }
 
