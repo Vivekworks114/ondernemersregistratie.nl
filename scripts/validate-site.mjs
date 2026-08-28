@@ -53,7 +53,7 @@ const sitemapHtml = readFileSync(join(ROOT, 'src/data/sitemapContent.html'), 'ut
 
 const routes = new Set([
   '/',
-  '/updates/',
+  '/blog/',
   '/over-ons/',
   '/contact/',
   '/telefoonnummers/',

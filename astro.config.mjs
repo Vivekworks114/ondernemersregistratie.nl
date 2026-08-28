@@ -9,6 +9,7 @@ export default defineConfig({
   compressHTML: true,
   integrations: [mdx()],
   redirects: {
-    '/blog/': '/updates/',
+    '/updates': '/blog/',
+    '/updates/': '/blog/',
   },
 });
