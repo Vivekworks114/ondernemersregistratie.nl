@@ -1,18 +1,3 @@
 ---
-import PageLayout from '../../layouts/PageLayout.astro';
-import Hero from '../../components/Hero.astro';
-import BlogListing from '../../components/BlogListing.astro';
+return Astro.redirect('/blog/', 301);
 ---
-
-<PageLayout
-  title="Updates - Ondernemersregistratie.nl"
-  description="Ontdek nieuwe functies, slimme zoekstrategieën en trends in het register van Nederlandse ondernemers."
->
-  <Hero
-    title="Laatste updates"
-    subtitle="Ontdek nieuwe functies, slimme zoekstrategieën en trends in het register van Nederlandse ondernemers."
-    showSearch={false}
-    showVisual={false}
-  />
-  <BlogListing />
-</PageLayout>

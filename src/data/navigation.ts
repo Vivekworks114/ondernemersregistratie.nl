@@ -22,6 +22,6 @@ export const mainNav: NavItem[] = [
       { label: '085 018 99 98', href: '/085-018-99-98/' },
     ],
   },
-  { label: 'Updates', href: '/updates/' },
+  { label: 'Blog', href: '/blog/' },
   { label: 'Over ons', href: '/over-ons/' },
 ];

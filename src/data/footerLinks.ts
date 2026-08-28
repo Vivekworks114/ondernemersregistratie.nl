@@ -6,7 +6,7 @@ export interface FooterLink {
 export const footerLinks = {
   main: [
     { label: 'Home', href: '/' },
-    { label: 'Updates', href: '/updates/' },
+    { label: 'Blog', href: '/blog/' },
     { label: 'Over ons', href: '/over-ons/' },
     { label: 'Contact', href: '/contact/' },
   ],

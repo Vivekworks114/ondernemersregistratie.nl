@@ -1,10 +1,10 @@
 # Cloudflare Pages - ondernemersregistratie.nl
 # First match wins. Specific routes before splats.
 
-/updates      /updates/     200
-/updates/     /updates/     200
+/updates      /blog/     301
+/updates/     /blog/     301
 /blog      /blog/     200
-/blog/     /updates/     301
+/blog/     /blog/     200
 /contact      /contact/     200
 /contact/     /contact/     200
 /over-ons      /over-ons/     200
@@ -19,8 +19,8 @@
 /zb_mp_nummer/     /zb_mp_nummer/     200
 
 # Blog archive aliases
-/blogs     /updates/     301
-/blogs/    /updates/     301
+/blogs     /blog/     301
+/blogs/    /blog/     301
 
 # Payload /blog/:slug and /updates/:slug -> canonical root post
 /blog/:slug      /:slug/          301

@@ -8,7 +8,12 @@ function normalizePath(href: string) {
 }
 
 function isActive(href: string) {
-  return currentPath === normalizePath(href);
+  const normalized = normalizePath(href);
+  if (currentPath === normalized) return true;
+  if (normalized === '/blog' && (currentPath === '/updates' || currentPath.startsWith('/updates/'))) {
+    return true;
+  }
+  return false;
 }
 
 function isItemActive(item: (typeof mainNav)[number]) {
